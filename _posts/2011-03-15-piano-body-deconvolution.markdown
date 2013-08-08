@@ -3,7 +3,7 @@ author: remy
 comments: false
 date: 2011-03-15 11:44:22+00:00
 layout: post
-published: false
+published: true
 slug: piano-body-deconvolution
 title: Piano body deconvolution
 wordpress_id: 113

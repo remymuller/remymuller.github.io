@@ -7,7 +7,6 @@ slug: spark-verb
 title: FDN Delayline modulation
 wordpress_id: 252
 categories:
-- Code
 - Music
 - Science
 post_format:

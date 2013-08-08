@@ -8,7 +8,6 @@ slug: maxmsp-externals-with-objectivec
 title: Max/MSP Externals with ObjectiveC
 wordpress_id: 13
 categories:
-- Science
 - Code
 ---
 
