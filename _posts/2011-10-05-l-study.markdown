@@ -1,0 +1,18 @@
+---
+author: remy
+comments: false
+date: 2011-10-05 10:02:23+00:00
+layout: post
+slug: l-study
+title: L-study
+wordpress_id: 217
+categories:
+- Music
+tags:
+- generative
+---
+
+L-study:
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F24290037"></iframe>
+
+a generative music piece made with MachFive3 Fazioli Piano and MachFiveScript.

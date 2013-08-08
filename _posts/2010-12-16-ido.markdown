@@ -1,0 +1,35 @@
+---
+author: remy
+comments: false
+date: 2010-12-16 14:54:15+00:00
+layout: page
+slug: ido
+title: IDO
+wordpress_id: 44
+categories:
+- Art
+---
+
+_An interactive performance by Alice Daquet_
+
+**Drawings**: Marianne Daquet
+
+**Sound**: Alice daquet & Romain Kronenberg
+
+**Video animation & Motion capture**: Remy Muller
+
+**Performance**: Alice Daquet
+
+**Dance coaching**: Julie Nioche
+
+**Animation**: QuartzComposer
+
+**MotionCapture**: Eyesweb & MaxMSP
+
+**Sound processing**: MaxMSP
+
+**video of the performance at CITU**: [http://www.citu.info/video/perf_sir_alice_H264.mov](http://www.citu.info/video/perf_sir_alice_H264.mov)
+
+Final Creation at Le Cube (Issy les moulineaux) 
+**Vendredi 20 octobre 2006 20 h 30**
+[http://www.lesiteducube.com/site/breve.php?id=184](http://www.lesiteducube.com/site/breve.php?id=184)

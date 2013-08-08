@@ -1,0 +1,120 @@
+---
+author: remy
+comments: false
+date: 2013-04-11 10:14:14+00:00
+layout: post
+slug: arduino-202
+title: Arduino 202
+wordpress_id: 293
+categories:
+- Code
+---
+
+A slightly more complicated example now with some more logic using the same simple pushbutton circuit
+
+    
+{% highlight cpp %}    
+    /*
+      short push toggle led on or off
+      long push makes it blink
+    */
+    
+    int Led = 13;
+    int Button = 7;
+    int lastVal = LOW;
+    int state = 0; 
+    int debug = 1;
+    int onTime = 0;
+    int T = 100; // 100ms  10Hz
+    
+    int ledOnTime = 0;
+    int ledState = LOW;
+    
+    void blink()
+    {
+      if(state == 0)
+      {
+        ledState = LOW;
+      }
+      else if(state == 1)
+      {
+        ledState = HIGH;
+      } 
+      else if(state == 2)
+      {
+        int time = millis();
+        int delta = time-ledOnTime;
+        if(delta>T)
+        {
+          ledOnTime = time; // reset time point
+          if(ledState == LOW) // toggle state
+          {
+            ledState = HIGH;
+          }
+          else
+          {
+            ledState = LOW;
+          }
+        }
+      } 
+    
+      digitalWrite(Led, ledState);
+    }
+    
+    void setup()
+    {
+      if(debug)
+      {      
+        Serial.begin(9600);
+      }
+      pinMode(Button, INPUT);
+      pinMode(Led, OUTPUT);
+    }
+    
+    void loop()
+    {
+      int val = digitalRead(Button);
+    
+      if(lastVal != val) // changed
+      {  
+        if(lastVal != val && val == LOW) // falling front
+        {    
+          int offTime = millis();
+          int delta = offTime-onTime;
+    
+          if(delta>1000)
+          {
+            state = 2;
+          }
+          else
+          {
+            // toggle state
+            if(state == 0)
+            {
+              state = 1;
+            }
+            else if(state == 1)
+            {
+              state = 0;
+            }
+            else
+            {
+              state = 0;
+            }
+          }
+    
+          if(debug)
+          {      
+            Serial.println(state);    
+          }
+        }
+        else // rising front
+        {
+          onTime = millis();
+        }   
+      }
+      lastVal = val;
+    
+      blink();
+    }
+{% endhighlight %}    

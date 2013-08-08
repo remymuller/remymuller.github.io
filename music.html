@@ -1,0 +1,16 @@
+---
+layout: default
+title: Remy Muller
+---
+
+<div id="home">
+  <h1>Music</h1>
+    {% for post in site.categories.music %}
+    <div class="post">
+    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+    <p class="meta">{{ post.date | date_to_string }}</p>
+    {{ post.content }}
+    </div>
+    <br/>
+    {% endfor %}
+</div>

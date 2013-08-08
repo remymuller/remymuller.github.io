@@ -1,0 +1,41 @@
+---
+author: remy
+comments: false
+date: 2010-12-16 10:13:18+00:00
+layout: page
+slug: s0undb1ts
+title: s0undb1ts
+wordpress_id: 21
+categories:
+- Art
+---
+
+by composer [Robin Minard](http://www.erratum.org/minard/minard.html)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0017.jpg)
+
+[s0undb1ts](http://www.s0undb1ts.org/) is  a sound installation by Robin Minard which uses a matrix of 576  independant loudspeakers.
+
+I've followed the installation's genesis from  the early beginning: soldering cables and mounting of the [hardware](http://recherche.ircam.fr/equipes/temps-reel/S0UNDB1TS/images/motherboard.jpg) to its different realizations in [Berlin](http://s0undb1ts.wordpress.com/2002/06/01/inventionen-2002/), [Paris](http://s0undb1ts.wordpress.com/2002/04/01/prototypes/) and [Geneve](http://s0undb1ts.wordpress.com/2003/03/01/archipel-2003/).
+
+
+## Pictures
+
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000062.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0060.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0055.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000045.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000059.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000042.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0092.jpg)
+
+![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000019.jpg)
+
+[more photos of s0undb1ts](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/s0undb1ts/)

@@ -1,0 +1,69 @@
+---
+author: remy
+comments: false
+date: 2013-04-11 09:39:02+00:00
+layout: post
+slug: arduino-101
+title: Arduino 101
+wordpress_id: 280
+categories:
+- Code
+tags:
+- arduino
+---
+
+I just received my Arduino Kit. 
+
+![Arduino2]({{ site.url }}/images/arduino2.jpeg)
+![Arduino1]({{ site.url }}/images/arduino1.jpeg)
+
+It's been a long time that I wanted to start playing with it to refresh my rusty electrical engineering skills and start hacking ideas in the real world not just inside computers.
+
+Here's a first toy example that uses the push button to toggle the LED on and off. 
+This is the simplest example I could think about that wouldn't be easy to do using just analog electronics. 
+That kind of logic is much easier with software.
+
+
+{% highlight cpp %}
+int Led = 13;
+int Button = 7;
+int lastVal = LOW;
+int state = LOW; 
+int debug = 1;
+
+void setup()
+{
+  if(debug)
+  {  
+    Serial.begin(9600);
+  }
+  pinMode(Button, INPUT);
+  pinMode(Led, OUTPUT);
+}
+    
+void loop()
+{
+    int val = digitalRead(Button);
+    if(lastVal != val && val == HIGH) // rising front
+    {
+        // toggle state
+        if(state == LOW)
+        {
+            state = HIGH;
+        }
+        else
+        {
+            state = LOW;
+        }
+        
+        if(debug)
+        {      
+            Serial.println(state);    
+        }
+    }
+    lastVal = val;
+      
+    digitalWrite(Led, state);
+    delay(1);
+}
+{% endhighlight %}    
