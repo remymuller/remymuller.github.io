@@ -16,6 +16,6 @@ Ether:
 
 Misc: 
 
- * <http://remymuller.net/wp-content/uploads/2011/03/asleep.mp3>
- * <http://remymuller.net/wp-content/uploads/2011/03/jazz.mp3>
- * <http://remymuller.net/wp-content/uploads/2011/03/dub-mix.mp3>
+ * [asleep](http://remymuller.net/wp-content/uploads/2011/03/asleep.mp3)
+ * [jazz](http://remymuller.net/wp-content/uploads/2011/03/jazz.mp3)
+ * [dub](http://remymuller.net/wp-content/uploads/2011/03/dub-mix.mp3)
