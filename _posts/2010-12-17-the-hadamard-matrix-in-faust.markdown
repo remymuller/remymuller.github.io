@@ -79,7 +79,7 @@ Now we can easily derive the generic version of the hadamard matrix using recurs
     hada(n) = butterfly(n) : (hada(n/2) , hada(n/2));
 
 
-[![](http://www.remymuller.net/wp-content/uploads/2010/12/hadamard4-300x285.png)](http://www.remymuller.net/wp-content/uploads/2010/12/hadamard4.png)
+[![](http://remymuller.net/wp-content/uploads/2010/12/hadamard4-300x285.png)](http://remymuller.net/wp-content/uploads/2010/12/hadamard4.png)
 
 This is working correctly and we shouldn't care much about all those wires on screen. Faust simplififes them before generating code.
 
@@ -89,7 +89,7 @@ However with N=8 and above the diagram size tends to explode. Let's try to find 
 # III. An alternative solution
 
 
-[![](http://www.remymuller.net/wp-content/uploads/2010/12/hada8-269x300.png)](http://www.remymuller.net/wp-content/uploads/2010/12/hada8.png)
+[![](http://remymuller.net/wp-content/uploads/2010/12/hada8-269x300.png)](http://remymuller.net/wp-content/uploads/2010/12/hada8.png)
 
 If we look carefully at the faust merge/fanin operator **:>** with its implicit summation we can find a new way to write the butterfly that does almost what we need
 
@@ -97,7 +97,7 @@ If we look carefully at the faust merge/fanin operator **:>** with its implicit 
     B(n) = par(i,n,_)  par(i,n/2,_)) , (par(i,n,_) :> par(i,n/2,_)) ;
 
 
-[![](http://www.remymuller.net/wp-content/uploads/2010/12/almost_hada16-300x225.png)](http://www.remymuller.net/wp-content/uploads/2010/12/almost_hada16.png)
+[![](http://remymuller.net/wp-content/uploads/2010/12/almost_hada16-300x225.png)](http://remymuller.net/wp-content/uploads/2010/12/almost_hada16.png)
 
 We just miss differences instead of sums for the bottom half of the graph but the display is clean compact and readable. It's easy enough to add but unfortunately it breaks the graph symmetry and makes it harder to read.
 
@@ -106,4 +106,4 @@ We just miss differences instead of sums for the bottom half of the graph but th
                          (par(i,n/2,_),par(i,n/2,*(-1)) +> par(i,n/2,_));
 
 
-[![](http://www.remymuller.net/wp-content/uploads/2010/12/hada8compact-300x159.png)](http://www.remymuller.net/wp-content/uploads/2010/12/hada8compact.png)
+[![](http://remymuller.net/wp-content/uploads/2010/12/hada8compact-300x159.png)](http://remymuller.net/wp-content/uploads/2010/12/hada8compact.png)

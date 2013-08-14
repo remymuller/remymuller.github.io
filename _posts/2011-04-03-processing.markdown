@@ -12,9 +12,9 @@ categories:
 
 Some sketches made with Processing to try to simulate color pigments being spread on a surface
 
-<img src="http://www.remymuller.net/wp-content/uploads/2011/04/pigments3_1.png" width="640"/>
-<img src="http://www.remymuller.net/wp-content/uploads/2011/04/pigments2.png" width="640"/>
-<img src="http://www.remymuller.net/wp-content/uploads/2011/04/pigments3.png" width="640"/>
-<img src="http://www.remymuller.net/wp-content/uploads/2011/04/Picture-1-1024x583.png" width="640"/>
+<img src="http://remymuller.net/wp-content/uploads/2011/04/pigments3_1.png" width="640"/>
+<img src="http://remymuller.net/wp-content/uploads/2011/04/pigments2.png" width="640"/>
+<img src="http://remymuller.net/wp-content/uploads/2011/04/pigments3.png" width="640"/>
+<img src="http://remymuller.net/wp-content/uploads/2011/04/Picture-1-1024x583.png" width="640"/>
 
 
