@@ -25,7 +25,7 @@ categories:
 
 [Human Motion Following system using Hidden Markov Models and application to dance performance](http://recherche.ircam.fr/equipes/temps-reel/movement/publications/muller-master.pdf) _Remy Muller_ IRCAM internal report.
 
-
+<!---
 ## 2003
 
 
@@ -34,7 +34,7 @@ categories:
 [XSPIF: developper guide](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/xspif/devguide.pdf) _Vincent Goudard and Remy Muller_ IRCAM internal report.
 
 [XSPIF: user guide](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/xspif/userguide.pdf) _Vincent Goudard and Remy Muller_ IRCAM internal report.
-
+-->
 
 ## 2002
 
