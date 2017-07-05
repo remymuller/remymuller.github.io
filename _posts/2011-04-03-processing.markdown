@@ -5,6 +5,7 @@ date: 2011-04-03 23:19:23+00:00
 layout: post
 slug: processings
 title: Processings
+published: false
 wordpress_id: 140
 categories:
 - art
