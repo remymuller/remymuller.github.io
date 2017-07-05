@@ -84,13 +84,13 @@ $$
 	\end{align}
 $$
 
-The consequence of this, is that any energy-preserving numerical scheme applied to the extended system has the side-effect of preserving the _dissipative invariant_
+The consequence of this, is that _any energy-preserving_ numerical scheme applied to the extended system has the side-effect of preserving the _dissipative invariant_.
 
-The energy is indeed conserved and transmitted _irreversibly_ toward the $$z$$ coordinate
+The energy is indeed conserved and transmitted _irreversibly_ toward the $$z$$ coordinate.
 
 ![]({{ site.url }}/images/irreversibility/time_series.png){:width="640"}
 
-The decay rate is also better with this approach compared to the Trapezoidal rule simulation
+The decay rate is also closer to the exact solution with this approach compared to the Trapezoidal rule simulation
 
 ![]({{ site.url }}/images/irreversibility/energy_decay.png){:width="640"}
 
