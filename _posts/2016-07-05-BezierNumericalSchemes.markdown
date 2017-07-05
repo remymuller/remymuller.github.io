@@ -364,6 +364,9 @@ $$
 
 Remark: This is the Pade (0,3) approximation of $$e^z$$.	
 
+
+Cubic approximations of the solution of $$\dot y = \lambda y, \lambda=-2$$ with initial condition $$y_0=1$$ using cubic bezier splines (2,1) in green, (1,2) in blue and $$(1+\frac{1}{2},1+\frac{1}{2})$$ in red are given below
+
 ![]({{ site.url }}/images/bezier/CubicBezier.png){:width="640"}
 
-Cubic approximations of the solution of $$\dot y = \lambda y, \lambda=-2$$ with initial condition $$y_0=1$$ using cubic bezier splines (2,1) in green, (1,2) in blue and $$(1+\frac{1}{2},1+\frac{1}{2})$$ in red. Even though $$\lambda \gg 1$$ the curve stays close to the true solution (in dotted black). However in the (2,1) case we the see the appearance of an oscillation in the control points while the true exponential solution and all its derivatives are monotonic (The curve crossed its control polygon). The better accuracy of method $$(1+\frac{1}{2},1+\frac{1}{2})$$ is clearly visible.
+Even though $$\lambda \gg 1$$ the curve stays close to the true solution (in dotted black). However in the (2,1) case we the see the appearance of an oscillation in the control points while the true exponential solution and all its derivatives are monotonic (The curve crossed its control polygon). The better accuracy of method $$(1+\frac{1}{2},1+\frac{1}{2})$$ is clearly visible.
