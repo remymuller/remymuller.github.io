@@ -29,8 +29,18 @@ $$
 \begin{align}
 	\mathbf{B(t)} &= \mathbf{P_0}(1-t) + \mathbf{P_1} t \\
 	\label{LinearBezierDerivative}
-	\mathbf{\dot B(t)} &= \mathbf{P_1 - P_0} \\
+	\mathbf{\dot B(t)} &= \mathbf{P_1 - P_0} 
 \end{align}	
 $$
 
 where $$\mathbf{P_0, P_1}$$ are the end-points of the curve.
+
+By evaluating The above equations for $$t=\{0, \frac{1}{2}, 1\}$$ we get the following relations:
+
+$$
+	\begin{align} 
+		\mathbf{P_1 - P_0} &= A \mathbf{P_0} \\
+		\mathbf{P_1 - P_0} &= A \left(\frac{\mathbf{P_1 + P_0}}{2}\right) \\
+		\mathbf{P_1 - P_0} &= A \mathbf{P_1} 
+	\end{align}
+$$
