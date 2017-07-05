@@ -1,0 +1,13 @@
+---
+author: remy
+comments: false
+layout: post
+slug: testmath
+title: Test MathJax support
+categories:
+- science
+---
+
+\[
+	\dot x = (J-R) \nabla H(x) + G(x) u
+\]
