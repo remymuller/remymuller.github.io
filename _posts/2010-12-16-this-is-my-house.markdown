@@ -13,7 +13,7 @@ categories:
 **choregrapher**: [Myriam Gourfink](http://www.myriam-gourfink.com/)<br/>
 **composer**: [Kasper Toeplitz](http://www.sleazeart.com/)
 
-![]({{ site.url }}/images/timh/images/AA001-1-small.jpg){:width="640"}
+![]({{ site.url }}/images/timh/AA001-1-small.jpg){:width="640"}
 
 
     This is my house: 
