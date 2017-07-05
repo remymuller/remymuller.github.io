@@ -97,7 +97,7 @@ If we look carefully at the faust merge/fanin operator **:>** with its implicit 
     B(n) = par(i,n,_)  par(i,n/2,_)) , (par(i,n,_) :> par(i,n/2,_)) ;
 
 
-[![]({{ site.url }}/images/hadamard/almost_hada16.png){:width="640"}]({{ site.url }}/images/hadamard/almost_hada16.png)
+![]({{ site.url }}/images/hadamard/almost_hada16.png){:width="640"}
 
 We just miss differences instead of sums for the bottom half of the graph but the display is clean compact and readable. It's easy enough to add but unfortunately it breaks the graph symmetry and makes it harder to read.
 
@@ -106,4 +106,4 @@ We just miss differences instead of sums for the bottom half of the graph but th
                          (par(i,n/2,_),par(i,n/2,*(-1)) +> par(i,n/2,_));
 
 
-[![]({{ site.url }}/images/hadamard/hada8compact.png){:width="640"}]({{ site.url }}/images/hadamard/hada8compact.png)
+![]({{ site.url }}/images/hadamard/hada8compact.png){:width="640"}
