@@ -34,9 +34,13 @@ $$
 	\end{equation}
 $$
 
-and the Hamiltonian energy function $$H(x,y) = \frac{1}{2} (x^2 + y^2)$$
+It has pulsation $$\omega$$ and dissipation $$\sigma$$ and the Hamiltonian energy function 
 
-with energy dissipation rate $$\sigma$$
+$$
+	H(x,y) = \frac{1}{2} (x^2 + y^2)
+$$
+
+with the energy dissipation rate $$\sigma$$
 
 $$
 	\begin{equation}
