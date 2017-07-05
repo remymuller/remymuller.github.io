@@ -21,7 +21,7 @@ In the following, to simplify notation, each time step is normalised to $$[0,1]$
 In the general case a Bezier Spline is defined by
 
 $$
-	\mathbf B(t) = \sum{k=0}^(n} \mathbf P_k B_k^n(t)
+	\mathbf B(t) = \sum{k=0}^{n} \mathbf P_k B_k^n(t)
 $$
 
 For the control points $$\{ \mathbf P_k \}$$ with the basis functions
