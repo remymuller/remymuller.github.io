@@ -34,13 +34,13 @@ $$
 	\end{equation}
 $$
 
-It has pulsation $$\omega$$ and dissipation $$\sigma$$ and the Hamiltonian energy function 
+and the Hamiltonian energy function 
 
 $$
 	H(x,y) = \frac{1}{2} (x^2 + y^2)
 $$
 
-with the energy dissipation rate $$\sigma$$
+It has pulsation $$\omega$$ and dissipation rate $$\sigma$$
 
 $$
 	\begin{equation}
@@ -48,9 +48,15 @@ $$
 	\end{equation}
 $$
 
-The equivalent in mechanics would be a mass-spring system with friction or in electronics a parallel RLC circuit.
+The equivalent in mechanics would be a mass-spring system with friction and in electronics a parallel RLC circuit.
 
-Now let's consider the augmented Hamiltonian $$H(x,y,z) = \frac{1}{2}(x^2 + y^2 + z^2)$$. We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H(x,y,z) = C$$, i.e. $$\frac{d}{dt} H(x,y,z) = 0$$
+Now let's consider the augmented Hamiltonian.
+
+$$
+	H_e(x,y,z) = \frac{1}{2}(x^2 + y^2 + z^2)
+$$ 
+
+We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H_e(x,y,z) = C$$, i.e. $$\frac{d}{dt} H_e(x,y,z) = 0$$
 
 This is satisfied by
 
@@ -72,7 +78,7 @@ with $$J(\mathbf X) =-J^T(\mathbf X)$$. We have converted a _linear time-invaria
 
 $$
 	\begin{align}
-		\dot E = \nabla H(\mathbf X)^T \dot{\mathbf X} = -\sigma x^2 + \sigma x^2 = 0 
+		\dot E = \nabla H_e(\mathbf X)^T \dot{\mathbf X} = -\sigma x^2 + \sigma x^2 = 0 
 	\end{align}
 $$
 
@@ -82,6 +88,6 @@ The energy is indeed conserved and transmitted _irreversibly_ toward the $$z$$ c
 
 ![]({{ site.url }}/images/irreversibility/time_series.png){:width="640"}
 
-The decay rate is also better approximated with this approach compared to the Trapezoidal rule simulation
+The decay rate is also better with this approach compared to the Trapezoidal rule simulation
 
 ![]({{ site.url }}/images/irreversibility/energy_decay.png){:width="640"}
