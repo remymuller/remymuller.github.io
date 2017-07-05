@@ -10,9 +10,10 @@ categories:
 - art
 ---
 
-by composer [Robin Minard](http://www.erratum.org/minard/minard.html)
 
 ![]({{ site.url }}/images/s0undb1ts/0017.jpg)
+
+by composer [Robin Minard](http://www.erratum.org/minard/minard.html)
 
 [s0undb1ts](http://www.s0undb1ts.org/) is  a sound installation by Robin Minard which uses a matrix of 576  independant loudspeakers.
 

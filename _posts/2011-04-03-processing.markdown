@@ -10,9 +10,10 @@ categories:
 - art
 ---
 
+![pigments1]({{ site.url }}/images/processing/pigments3_1.png){:width="640"}
+
 Some sketches made with Processing to try to simulate color pigments being spread on a surface
 
-![pigments1]({{ site.url }}/images/processing/pigments3_1.png){:width="640"}
 ![pigments2]({{ site.url }}/images/processing/pigments2.png){:width="640"}
 ![pigments3]({{ site.url }}/images/processing/pigments3.png){:width="640"}
 

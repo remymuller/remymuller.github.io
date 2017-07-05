@@ -10,10 +10,11 @@ categories:
 - art
 ---
 
-**choregrapher**: [Myriam Gourfink](http://www.myriam-gourfink.com/)<br/>
-**composer**: [Kasper Toeplitz](http://www.sleazeart.com/)
 
 ![]({{ site.url }}/images/timh/AA001-1-small.jpg){:width="640"}
+
+**choregrapher**: [Myriam Gourfink](http://www.myriam-gourfink.com/)<br/>
+**composer**: [Kasper Toeplitz](http://www.sleazeart.com/)
 
 
     This is my house: 
