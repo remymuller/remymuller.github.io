@@ -25,13 +25,14 @@ This is a commandline program that lets you decompose a sound into additive comp
 
 usage:
 
-    nmfdemix  [-m] [-s] [-o long] [-c double] [-i long] [-f long] [--] [-v] [-h] filename #components
+    nmfdemix  [options] filename #components
     -o , --overlap _overlap factor (default 4)_
     -c , --criteria _stopping criteria (default 0.001)_
     -i , --maxiterations _max number of iterations (default 1000)_
     -f , --fftsize _fftsize (default 4096)_
-    -m,  --matrixout _output W and H matrices_
-    -s,  --silent _don't be verbose_
+    -m ,  --matrixout _output W and H matrices_
+    -s ,  --silent _don't be verbose_
+    -h ,  print help
 
 
 ## download
