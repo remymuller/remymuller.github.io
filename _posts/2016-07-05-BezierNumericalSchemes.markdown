@@ -9,17 +9,19 @@ categories:
 ---
 
 We consider ordinary differential equations of the form
+
 $$
 	\mathbf{\dot y(t)} = f(\mathbf{y},t) = \mathbf{A y(t)}
 $$
 
 We will show how the bezier splines lead naturally to well known numerical integration schemes while giving a meaningful interpretation to their intermediate control points. 
 
-In the following, to simplify notation, each time step is normalised to $[0,1]$ thus the $A$ matrix is supposed to be pre-normalised by the stepsize $h$
+In the following, to simplify notation, each time step is normalised to $$[0,1]$$ thus the $$A$$ matrix is supposed to be pre-normalised by the stepsize $$h$$
 
-## Linear Bezier spline
 
 We will first study the well-known Linear, Quadratic and Cubic bezier splines and the respective numerical schemes that they can generate.
+
+## Linear Bezier spline
 
 The linear bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1} \in \mathbb{R}^n$$ as
 
