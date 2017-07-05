@@ -5,6 +5,7 @@ date: 2010-12-16 14:50:11+00:00
 layout: page
 slug: publications
 title: Publications
+published: false
 wordpress_id: 38
 categories:
 - science
