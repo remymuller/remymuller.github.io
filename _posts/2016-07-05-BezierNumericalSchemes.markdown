@@ -69,6 +69,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = 1+z
 $$
@@ -84,6 +85,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = \frac{1+\frac{z}{2}}{1-\frac{z}{2}}
 $$
@@ -99,6 +101,7 @@ $$
 $$
 
 with stability region 
+
 $$
 		R(z) = \frac{1}{1-z}
 $$
@@ -182,6 +185,7 @@ $$
 $$
 
 with stability region
+
 $$
 	R(z) = \frac{1+\frac{z}{2}}{1-\frac{z}{2}}
 $$
@@ -199,6 +203,7 @@ $$
 $$
 
 with stability region
+
 $$
 	R(z) = \frac{1}{1-z+\frac{z^2}{2}}
 $$
@@ -272,6 +277,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = 1+z+\frac{z^2}{2}+\frac{z^3}{6}
 $$
@@ -290,6 +296,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = \frac{1+\frac{2z}{3}+\frac{z^2}{6}}{1-\frac{z}{3}}
 $$
@@ -309,6 +316,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = \frac{1+\frac{z}{2}+\frac{z^2}{12}}{1-\frac{z}{2} + \frac{z^2}{12}}
 $$
@@ -329,6 +337,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = \frac{1+\frac{z}{3}}{1-\frac{2z}{3}+\frac{z^2}{6}}
 $$
@@ -348,6 +357,7 @@ $$
 $$
 
 with stability region 
+
 $$
 	R(z) = \frac{1}{1-z+\frac{z^2}{2}-\frac{z^3}{6}}
 $$
