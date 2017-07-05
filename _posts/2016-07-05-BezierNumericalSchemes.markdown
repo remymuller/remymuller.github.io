@@ -145,7 +145,7 @@ As we have demonstrated in the previous section, this is equivalent to matching 
 
 ### Quadratic (2,0)
 
-Using the first relations leads to the following prediction:
+Using forward predictions leads to the following equations:
 
 $$
 	\begin{align}
@@ -159,7 +159,7 @@ with stability region $$R(z) = 1+z+\frac{z^2}{2}$$
 Remark: This is the Pade (2,0) approximation of $$e^z$$.	
 
 ### Quadratic (1,1)
-Using \eqref{QuadBackward} and \eqref{QuadForward2} leads to the following prediction, which is equivalent to the bilinear method:
+Using Forward-Backward equations leads to the following prediction, which is equivalent to the bilinear method / trapezoidal rule:
 
 $$
 	\begin{align}
