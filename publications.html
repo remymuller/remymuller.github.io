@@ -32,9 +32,9 @@ title: Remy Muller
                 for(i = 0; i < docs.length; i++) 
                 {
                     out += '<li>' 
-                    + docs[i].authFullName_s + ", " 
+                    + '<b>' + docs[i].authFullName_s + "</b>, " 
                     + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
-                    + docs[i].conferenceTitle_s + ', ' 
+                    + '<i>' + docs[i].conferenceTitle_s + '</i>, ' 
                     + docs[i].producedDateY_i
                     +'</li>'
                 }
