@@ -8,6 +8,11 @@ categories:
 - science
 ---
 
-\[
+testing inline math $$\dot x = (J-R) \nabla H(x) + G(x) u$$
+
+and display math
+$$
+\beging{equation}
 	\dot x = (J-R) \nabla H(x) + G(x) u
-\]
+\end{equation}
+$$
