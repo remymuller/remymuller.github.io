@@ -23,7 +23,7 @@
             <div class="header">
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
               {% for cat in site.categories %}
-              <a class="extra" href="/{{ cat[0] }}.html">{{ cat[0] }}</a>
+              <a class="extra" href="/{{ cat[0] | lower }}.html">{{ cat[0] }}</a>
               {% endfor %}
               <a class="extra" href="/posts.html">posts</a>
             </div>
