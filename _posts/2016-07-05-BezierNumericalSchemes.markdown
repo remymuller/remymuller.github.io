@@ -52,17 +52,12 @@ By combining these equations, we can generate several different approximations t
 Using the first relation and solving for $$P_1$$ leads to the following forward prediction:
 
 $$
-	\begin{equation}
-		\mathbf{P_1} = (I+A) \mathbf{P_0}
-	\end{equation}
+	\mathbf{P_1} = (I+A) \mathbf{P_0}
 $$
 
 with stability region 
-
 $$
-	\begin{align}
-		R(z) = 1+z
-	\end{align}
+	R(z) = 1+z
 $$
 
 Remark: this is the Pade (1,0) approximation of $$e^z$$
@@ -72,17 +67,12 @@ Remark: this is the Pade (1,0) approximation of $$e^z$$
 Using the second relation and solving for $$P_1$$ leads to the following prediction:
 
 $$
-	\begin{align}
-		\mathbf{P_1} = \left(I-\frac{A}{2}\right)^{-1} \left(I+\frac{A}{2}\right) \mathbf{P_0}
-	\end{align}
+	\mathbf{P_1} = \left(I-\frac{A}{2}\right)^{-1} \left(I+\frac{A}{2}\right) \mathbf{P_0}
 $$
 
 with stability region 
-
 $$
-	\begin{align}
-		R(z) = \frac{1+\frac{z}{2}}{1-\frac{z}{2}}
-	\end{align}
+	R(z) = \frac{1+\frac{z}{2}}{1-\frac{z}{2}}
 $$
 
 Remark: This is the Pade (1,1) approximation of $$e^z$$. The symmetry of the collocation point within the interval allows to reach a consistency of order 2 while the polynomial is only of degree 1.	
@@ -92,17 +82,12 @@ Remark: This is the Pade (1,1) approximation of $$e^z$$. The symmetry of the col
 Using The third equation and solving for $$P_1$$ leads to the following prediction:
 
 $$
-	\begin{align}
-		\mathbf{P_1} = (I-A)^{-1} \mathbf{P_0}
-	\end{align}
+	\mathbf{P_1} = (I-A)^{-1} \mathbf{P_0}
 $$
 
 with stability region 
-
 $$
-	\begin{align}
 		R(z) = \frac{1}{1-z}
-	\end{align}
 $$
 
 Remark: This is the Pade (0,1) approximation of $$e^z$$
