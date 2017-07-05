@@ -13,10 +13,11 @@ tags:
 - arduino
 ---
 
+![Arduino1]({{ site.url }}/images/arduino1.jpeg)
+
 I just received my Arduino Kit. 
 
 ![Arduino2]({{ site.url }}/images/arduino2.jpeg)
-![Arduino1]({{ site.url }}/images/arduino1.jpeg)
 
 It's been a long time that I wanted to start playing with it to refresh my rusty electrical engineering skills and start hacking ideas in the real world not just inside computers.
 
