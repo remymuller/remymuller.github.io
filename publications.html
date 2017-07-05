@@ -7,6 +7,7 @@ title: Remy Muller
   <h1>Publications</h1>
   <div class="post">
 	  <div id="Publications"></div>
+
           <script>
             var xmlhttp = new XMLHttpRequest();
             var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,docType_s,producedDateY_i"; // TODO &sort=champ_s
@@ -27,16 +28,19 @@ title: Remy Muller
                 var out = "";
                 var i;
                 var doc_types = ["COMM", "POSTER"];
+                out += "<ul>"
                 for(i = 0; i < docs.length; i++) 
                 {
-                    out += '<div>' 
+                    out += '<li>' 
                     + docs[i].authFullName_s + ", " 
                     + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
                     + docs[i].conferenceTitle_s + ', ' 
                     + docs[i].producedDateY_i
-                    +'</div><br/>'
+                    +'</li>'
                 }
+                out += "</ul>"
                 document.getElementById("Publications").innerHTML = out;
             }
-          </script>  </div>
+          </script>  
+    </div>
 </div>
