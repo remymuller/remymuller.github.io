@@ -50,7 +50,7 @@ $$
 
 The equivalent in mechanics would be a mass-spring system with friction or in electronics a parallel RLC circuit.
 
-Now let's consider the augmented Hamiltonian $$H(x,y,z) = \frac{1}{2}(x^2 + y^2 + z^2)$$. We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H(x,y,z) = C$, $\dot H(x,y,z) = 0$$
+Now let's consider the augmented Hamiltonian $$H(x,y,z) = \frac{1}{2}(x^2 + y^2 + z^2)$$. We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H(x,y,z) = C$$, $$\dot H(x,y,z) = 0$$
 
 This is satisfied by
 
@@ -72,7 +72,7 @@ with $$J(X) =-J^T(X)$$. We have converted a _linear time-invariant dissipative_ 
 
 $$
 	\begin{align}
-		\nabla H^T(X) \dot X = -\sigma x^2 + \sigma x^2 = 0 
+		\dot E = \nabla H(X)^T \dot X = -\sigma x^2 + \sigma x^2 = 0 
 	\end{align}
 $$
 
