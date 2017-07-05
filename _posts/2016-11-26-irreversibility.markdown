@@ -50,7 +50,7 @@ $$
 
 The equivalent in mechanics would be a mass-spring system with friction or in electronics a parallel RLC circuit.
 
-Now let's consider the augmented Hamiltonian $$H(x,y,z) = \frac{1}{2}(x^2 + y^2 + z^2)$$. We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H(x,y,z) = C$$, $$\dot H(x,y,z) = 0$$
+Now let's consider the augmented Hamiltonian $$H(x,y,z) = \frac{1}{2}(x^2 + y^2 + z^2)$$. We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H(x,y,z) = C$$, i.e. $$\frac{d}{dt} H(x,y,z) = 0$$
 
 This is satisfied by
 
