@@ -6,7 +6,7 @@ title: Remy Muller
 <div id="home">
   <h1>Publications</h1>
   <div class="post">
-	  <div id="Publications"></div>
+      <div id="Publications"></div>
 
           <script>
             var xmlhttp = new XMLHttpRequest();
@@ -42,13 +42,13 @@ title: Remy Muller
                 out += ""
                 for(i = 0; i < docs.length; i++) 
                 {
-                	var doc = docs[i];
+                    var doc = docs[i];
                     out += '<div>'; 
                     out += '<b>' + doc.authFullName_s + "</b>, ";
                     out += '<a href="' + doc.uri_s + '">' + doc.title_s + '</a>, ';
                     if(doc.conferenceTitle_s != "undefined")
                     {
-                    	out += '<i>' + doc.conferenceTitle_s + '</i>, '                     	
+                        out += '<i>' + doc.conferenceTitle_s + '</i>, '                         
                     }
                     out += doc.producedDateY_i;
                     out += '</div></br>';
