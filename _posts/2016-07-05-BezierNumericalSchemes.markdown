@@ -112,7 +112,7 @@ where $$\mathbf{P_0, P_2}$$ are the end-points of the curve and $$\mathbf{P_1}$$
 When integrating an ODE we only know $$\mathbf{P_0}$$ so we need a way to estimate $$\mathbf{P_1, P_2}$$. For this several choices are possible.
 
 
-By evaluating for $$t \in \{0,1\}$$ we get the following relations:
+By evaluating the first derivative for $$t \in \{0,1\}$$ we get the following relations:
 
 $$
 \begin{align} 
@@ -156,6 +156,40 @@ $$
 with stability region $$R(z) = 1+z+\frac{z^2}{2}$$
 
 Remark: This is the Pade (2,0) approximation of $$e^z$$.	
+
+### Quadratic (1,1)
+Using \eqref{QuadBackward} and \eqref{QuadForward2} leads to the following prediction, which is equivalent to the bilinear method:
+
+$$
+	\begin{align}
+		\mathbf{P_1} &= \left(I+\frac{A}{2}\right) \mathbf{P_0} \\
+		\mathbf{P_2} &= \left(I-\frac{A}{2}\right)^{-1}\mathbf{P_1} = \left(I-\frac{A}{2}\right)^{-1}\left(I+\frac{A}{2}\right) \mathbf{P_0}
+	\end{align}
+$$
+
+with stability region
+$$
+	R(z) = \frac{1+\frac{z}{2}}{1-\frac{z}{2}}
+$$
+
+Remark: This is the Pade (1,1) approximation of $$e^z$$.	
+
+### Quadratic (0,2)
+Using first and second order backward predictions leads to the following equations:
+
+$$
+	\begin{align}
+		\mathbf{P_1} &= \left(I-\frac{A}{2}\right) \mathbf{P_2} \\
+		\mathbf{P_2} &= \left(I-A+\frac{A^2}{2}\right)^{-1}\mathbf{P_0}
+	\end{align}
+$$
+
+with stability region
+$$
+	R(z) = \frac{1}{1-z+\frac{z^2}{2}}
+$$
+
+Remark= This is the Pade (0,2) approximation of $$e^z$$.	
 
 
 
