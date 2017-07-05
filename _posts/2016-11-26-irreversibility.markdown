@@ -98,7 +98,7 @@ The decay rate is also better with this approach compared to the Trapezoidal rul
 ### References:
 
 - Daniel Fish. Dissipative perturbations of 3d hamiltonian systems, 506.
-- Bernhard Maschke, Romeo Ortega, and Arjan J. van der Schaft. Energy- based lyapunov functions for forced hamiltonian systems with dissipa- tion. IEEE transactions on automatic control, 45(8):1498–1502, 2000.
-- P. J. Morrison. A paradigm for joined Hamiltonian and dissipative sys- tems. Physica D Nonlinear Phenomena, 18:410–419, January 1986.
+- Bernhard Maschke, Romeo Ortega, and Arjan J. van der Schaft. Energy-based lyapunov functions for forced hamiltonian systems with dissipation. IEEE transactions on automatic control, 45(8):1498–1502, 2000.
+- P. J. Morrison. A paradigm for joined Hamiltonian and dissipative systems. Physica D Nonlinear Phenomena, 18:410–419, January 1986.
 
 
