@@ -80,8 +80,8 @@ The consequence of this, is that any energy-preserving numerical scheme applied 
 
 The energy is indeed conserved and transmitted _irreversibly_ toward the $$z$$ coordinate
 
-![]({{ site.url }}/images/irreversibility/time_series.png)
+![]({{ site.url }}/images/irreversibility/time_series.png){:width=640}
 
 The decay rate is also better approximated with this approach compared to the Trapezoidal rule simulation
 
-![]({{ site.url }}/images/irreversibility/energy_decay.png)
+![]({{ site.url }}/images/irreversibility/energy_decay.png){:width=640}
