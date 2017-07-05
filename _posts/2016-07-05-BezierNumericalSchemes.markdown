@@ -236,13 +236,13 @@ $$
 		\label{cubicP2}
 		\mathbf{P_2} &= \left(I-\frac{A}{3}\right)\mathbf{P_3} \\
 	\label{CubicFWD}
-		\mathbf{P_2} &= (I + \frac{2}{3}A + \frac{A^2}{6})\mathbf{P_0} \\
+		\mathbf{P_2} &= \left(I + \frac{2}{3}A + \frac{A^2}{6}\right))\mathbf{P_0} \\
 	\label{CubicBWD}
-		\mathbf{P_1} &= (I - \frac{2}{3}A + \frac{A^2}{6})\mathbf{P_3} \\
+		\mathbf{P_1} &= \left(I - \frac{2}{3}A + \frac{A^2}{6}\right))\mathbf{P_3} \\
 	\label{CubicFWD3}
-		\mathbf{P_3} &= (I + A + \frac{A^2}{2} + \frac{A^3}{6})\mathbf{P_0} \\
+		\mathbf{P_3} &= \left(I + A + \frac{A^2}{2} + \frac{A^3}{6}\right))\mathbf{P_0} \\
 	\label{CubicBWD3}
-		\mathbf{P_0} &= (I - A + \frac{A^2}{2} - \frac{A^3}{6})\mathbf{P_3}
+		\mathbf{P_0} &= \left(I - A + \frac{A^2}{2} - \frac{A^3}{6}\right))\mathbf{P_3}
 	\end{align}
 $$
 
