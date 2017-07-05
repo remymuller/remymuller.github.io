@@ -170,7 +170,11 @@ $$
 	\end{align}
 $$
 
-with stability region $$R(z) = 1+z+\frac{z^2}{2}$$
+with stability region 
+
+$$
+	R(z) = 1+z+\frac{z^2}{2}
+$$
 
 Remark: This is the Pade (2,0) approximation of $$e^z$$.	
 
