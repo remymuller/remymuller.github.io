@@ -7,7 +7,7 @@ slug: publications
 title: Publications
 wordpress_id: 38
 categories:
-- Science
+- science
 ---
 
 ## 2005

@@ -7,7 +7,7 @@ slug: s0undb1ts
 title: s0undb1ts
 wordpress_id: 21
 categories:
-- Art
+- art
 ---
 
 by composer [Robin Minard](http://www.erratum.org/minard/minard.html)

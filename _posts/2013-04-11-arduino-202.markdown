@@ -7,7 +7,7 @@ slug: arduino-202
 title: Arduino 202
 wordpress_id: 293
 categories:
-- Code
+- code
 ---
 
 A slightly more complicated example now with some more logic using the same simple pushbutton circuit

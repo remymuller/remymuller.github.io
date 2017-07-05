@@ -7,7 +7,7 @@ slug: ether
 title: Ether
 wordpress_id: 220
 categories:
-- Music
+- music
 tags:
 - guitar
 - livecut

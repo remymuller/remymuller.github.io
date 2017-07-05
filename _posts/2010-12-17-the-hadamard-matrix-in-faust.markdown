@@ -7,8 +7,8 @@ slug: the-hadamard-matrix-in-faust
 title: The Hadamard Matrix in Faust
 wordpress_id: 54
 categories:
-- Code
-- Science
+- code
+- science
 tags:
 - dsp
 - faust

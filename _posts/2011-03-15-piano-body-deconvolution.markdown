@@ -8,7 +8,7 @@ slug: piano-body-deconvolution
 title: Piano body deconvolution
 wordpress_id: 113
 categories:
-- Science
+- science
 ---
 
 deconvolution by log-spectrum averaging of the whole sounds FFTs (>37s).

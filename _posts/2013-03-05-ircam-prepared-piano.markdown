@@ -7,7 +7,7 @@ slug: ircam-prepared-piano
 title: Ircam Prepared Piano
 wordpress_id: 278
 categories:
-- Music
+- music
 tags:
 - Ircam Prepared piano
 ---

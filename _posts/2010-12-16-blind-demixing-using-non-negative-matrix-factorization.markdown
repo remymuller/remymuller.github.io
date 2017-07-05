@@ -7,7 +7,7 @@ slug: blind-demixing-using-non-negative-matrix-factorization
 title: Blind demixing using Non-negative Matrix Factorization
 wordpress_id: 41
 categories:
-- Science
+- science
 ---
 
 ![]({{ site.url }}/images/AFXdemixS.png)

@@ -7,7 +7,7 @@ slug: processings
 title: Processings
 wordpress_id: 140
 categories:
-- Art
+- art
 ---
 
 Some sketches made with Processing to try to simulate color pigments being spread on a surface

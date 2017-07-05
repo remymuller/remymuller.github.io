@@ -7,7 +7,7 @@ slug: motion-following-with-hidden-markov-models
 title: Motion Following with Hidden Markov Models
 wordpress_id: 11
 categories:
-- Art
+- art
 ---
 
 The goal of my master thesis was to generalize the idea behind ircam's [score follower](http://recherche.ircam.fr/equipes/temps-reel/suivi/index.html) to the field of dance. The system is based on a video analysis of what is happening on stage done with [eyesweb](http://www.eyesweb.org/), which is compared to an [Hidden Markov Model](http://www.ai.mit.edu/%7Emurphyk/Software/HMM/hmm.html) based on other realizations of the same choregraphy.

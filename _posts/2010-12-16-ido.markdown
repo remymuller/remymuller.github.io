@@ -7,7 +7,7 @@ slug: ido
 title: IDO
 wordpress_id: 44
 categories:
-- Art
+- art
 ---
 
 _An interactive performance by Alice Daquet_

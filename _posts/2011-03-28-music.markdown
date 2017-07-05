@@ -7,7 +7,7 @@ slug: music
 title: Music
 wordpress_id: 126
 categories:
-- Music
+- music
 ---
 
 Ether: 

@@ -7,8 +7,8 @@ slug: pianophase-for-machfivescript
 title: Piano phase for MachFiveScript
 wordpress_id: 264
 categories:
-- Code
-- Music
+- code
+- music
 tags:
 - MachFive
 - MachFiveScript

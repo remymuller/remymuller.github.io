@@ -7,7 +7,7 @@ slug: dialogue-aux-enfers
 title: Dialogue aux enfers
 wordpress_id: 214
 categories:
-- Art
+- art
 ---
 
 _sound and visual installation by [Olga Neuwirth](http://www.olganeuwirth.com/)_

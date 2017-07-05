@@ -7,7 +7,7 @@ slug: arduino-101
 title: Arduino 101
 wordpress_id: 280
 categories:
-- Code
+- code
 tags:
 - arduino
 ---

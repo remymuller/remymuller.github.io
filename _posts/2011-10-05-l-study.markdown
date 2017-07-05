@@ -7,7 +7,7 @@ slug: l-study
 title: L-study
 wordpress_id: 217
 categories:
-- Music
+- music
 tags:
 - generative
 ---
