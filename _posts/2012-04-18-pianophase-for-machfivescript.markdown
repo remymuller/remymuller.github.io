@@ -3,15 +3,15 @@ author: remy
 comments: false
 date: 2012-04-18 12:31:21+00:00
 layout: post
-slug: pianophase-for-machfivescript
-title: Piano phase for MachFiveScript
+slug: pianophase-for-uviscript
+title: Piano phase for UVIScript
 wordpress_id: 264
 categories:
 - code
 - music
 tags:
-- MachFive
-- MachFiveScript
+- Falcon
+- UVIScript
 - phase
 - piano
 - reich
@@ -19,7 +19,7 @@ tags:
 - steve
 ---
 
-Here's a very small script that regenerates [Steve Reich](http://en.wikipedia.org/wiki/Steve_Reich)'s [_Piano phase_](http://www.youtube.com/watch?v=JW4_8KjmzZk) piece for 2 pianos in [MachFive3](http://www.motu.com/products/software/machfive) using [MachFiveScript](http://www.uvi.net/machfivescript/) to generate the phasing piano parts. 
+Here's a very small script that regenerates [Steve Reich](http://en.wikipedia.org/wiki/Steve_Reich)'s [_Piano phase_](http://www.youtube.com/watch?v=JW4_8KjmzZk) piece for 2 pianos in [Falcon](http://www.uvi.net/falcon.html) using [UVIScript](http://www.uvi.net/uviscript/) to generate the phasing piano parts. 
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F43538091"></iframe>
 
