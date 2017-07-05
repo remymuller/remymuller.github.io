@@ -106,3 +106,21 @@ $$
 $$
 
 Remark: This is the Pade (0,1) approximation of $$e^z$$
+
+
+# Quadratic Bezier Spline
+
+The quadratic bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1, P_2} \in \mathbb{R}^n$$ as
+
+$$
+	\begin{align}
+		\mathbf{B(t)} &= \mathbf{P_0}(1-t)^2 + \mathbf{P_1} 2(1-t)t + \mathbf{P_2} t^2 \\
+		\label{QuadraticBezierDerivative}
+		\mathbf{\dot B(t)} &= 2(1-t)\mathbf{(P_1 - P_0)} + 2t \mathbf{(P_2 - P_1)} \\
+		\label{QuadraticBezierSecondDerivative} 
+		\mathbf{\ddot B(t)} &= 2\mathbf{(P_2 - 2P_1 + P_0)}
+	\end{align}	
+$$
+
+where $$\mathbf{P_0, P_2}$$ are the end-points of the curve and $$\mathbf{P_1}$$ is a control point not belonging to the curve but having an effect on its derivative.
+
