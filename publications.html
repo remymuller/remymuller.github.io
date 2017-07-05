@@ -42,12 +42,16 @@ title: Remy Muller
                 out += ""
                 for(i = 0; i < docs.length; i++) 
                 {
-                    out += '<div>' 
-                    + '<b>' + docs[i].authFullName_s + "</b>, " 
-                    + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
-                    + '<i>' + docs[i].conferenceTitle_s + '</i>, ' 
-                    + docs[i].producedDateY_i
-                    +'</div></br>'
+                	var doc = docs[i];
+                    out += '<div>'; 
+                    out += '<b>' + doc.authFullName_s + "</b>, ";
+                    out += '<a href="' + doc.uri_s + '">' + doc.title_s + '</a>, ';
+                    if(doc.conferenceTitle_s != "undefined")
+                    {
+                    	out += '<i>' + doc.conferenceTitle_s + '</i>, '                     	
+                    }
+                    out += doc.producedDateY_i;
+                    out += '</div></br>';
                 }
                 out += ""
                 document.getElementById("Publications").innerHTML = out;
