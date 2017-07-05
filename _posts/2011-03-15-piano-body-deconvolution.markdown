@@ -23,6 +23,5 @@ The extracted sounds obviously inherit the average EQ of the given sample set. B
 
 ### References:
 
-
-- [http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf](http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf)
-- [http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf](http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf)
+- A. Openheim, R.W Schafer, T. G. Stockham ["Nonlinear Filtering of Multiplied and Convoled Signals"](http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf)
+- Mohamed Tria, Mirko Van Der Baan, Anthony Larue, Jerome Mars, ["Wavelet estimation in homomorphic domain by spectral averaging, for deconvolution of seismic data"](http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf)
