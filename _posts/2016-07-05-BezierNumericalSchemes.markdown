@@ -36,7 +36,7 @@ We will first study the well-known Linear, Quadratic and Cubic bezier splines an
 
 # Linear Bezier spline
 
-The linear bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1} \in \mathbb{R}^n$$ as
+The linear bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1} \in \mathbb{R}^d$$ as
 
 $$
 \begin{align}
@@ -108,7 +108,7 @@ Remark: This is the Pade (0,1) approximation of $$e^z$$
 
 # Quadratic Bezier Spline
 
-The quadratic bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1, P_2} \in \mathbb{R}^n$$ as
+The quadratic bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1, P_2} \in \mathbb{R}^d$$ as
 
 $$
 	\begin{align}
@@ -208,7 +208,7 @@ Remark: This is the Pade (0,2) approximation of $$e^z$$.
 
 # Cubic Bezier Spline
 
-The cubic bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1, P_2, P_3} \in \mathbb{R}^n$$ as
+The cubic bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1, P_2, P_3} \in \mathbb{R}^d$$ as
 
 $$
 	\begin{align}
