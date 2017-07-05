@@ -87,11 +87,10 @@ This is working correctly and we shouldn't care much about all those wires on sc
 
 However with N=8 and above the diagram size tends to explode. Let's try to find a more elegant solution.
 
+![]({{ site.url }}/images/hadamard/hada8.png){:width="640"}
+
 
 # III. An alternative solution
-
-
-![]({{ site.url }}/images/hadamard/hada8.png){:width="640"}
 
 If we look carefully at the faust merge/fanin operator **:>** with its implicit summation we can find a new way to write the butterfly that does almost what we need
 
