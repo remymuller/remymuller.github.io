@@ -44,3 +44,25 @@ $$
 		\mathbf{P_1 - P_0} &= A \mathbf{P_1} 
 	\end{align}
 $$
+
+By combining these equations, we can generate several different approximations that we will label $$(m,n)$$ according to the fact that we use order $$m$$ forward prediction and order $$n$$ backward prediction.
+
+## Forward Euler (1,0)
+
+Using the first relation and solving for $$P_1$$ leads to the following prediction:
+
+$$
+	\begin{equation}
+		\mathbf{P_1} = (I+A) \mathbf{P_0}
+	\end{equation}
+$$
+
+with stability region 
+
+$$
+	\begin{align}
+		R(z) = 1+z
+	\end{align}
+$$
+
+Remark: this is the Pade (1,0) approximation of $$e^z$$
