@@ -40,7 +40,7 @@ the butterfly operation for N=2 is easy:
     butterfly2 = _,_
 
 
-![]({{ site.url }}/images/butterfly2.png)
+![]({{ site.url }}/images/hadamard/butterfly2.png)
 
 So let's try to generalize:
 
@@ -51,7 +51,7 @@ So let's try to generalize:
 
 This one is more complicated, faust doesn't let you explicitely make arbitrary connections between modules. We have to use the the fan out operator **<:** and cut unneccessary wires using operator **!**.  We also introduced the **interleave4** helper.
 
-![]({{ site.url }}/images/butterfly43.png)
+![]({{ site.url }}/images/hadamard/butterfly43.png)
 
 So let's try to generalize further and find a parametric version:
 
