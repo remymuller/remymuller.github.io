@@ -227,3 +227,32 @@ $$
 where $$\mathbf{P_0, P_3}$$ are the end-points of the curve and $\mathbf{P_0, P_1 P_2, P_3 }$ is the control polygon.
 
 
+By evaluating the first, second and third derivative for $$t \in \{0,1\}$$ and rearranging terms, we get the following relations:
+
+$$
+	\begin{align} 
+	\label{cubicP1}
+		\mathbf{P_1} &= \left(I+\frac{A}{3}\right)\mathbf{P_0} \\
+		\label{cubicP2}
+		\mathbf{P_2} &= \left(I-\frac{A}{3}\right)\mathbf{P_3} \\
+	\label{CubicFWD}
+		\mathbf{P_2} &= (I + \frac{2}{3}A + \frac{A^2}{6})\mathbf{P_0} \\
+	\label{CubicBWD}
+		\mathbf{P_1} &= (I - \frac{2}{3}A + \frac{A^2}{6})\mathbf{P_3} \\
+	\label{CubicFWD3}
+		\mathbf{P_3} &= (I + A + \frac{A^2}{2} + \frac{A^3}{6})\mathbf{P_0} \\
+	\label{CubicBWD3}
+		\mathbf{P_0} &= (I - A + \frac{A^2}{2} - \frac{A^3}{6})\mathbf{P_3}
+	\end{align}
+$$
+
+These are respectively the forward (backward) taylor series prediction of order $$1,2,3$$ from $$0 \to \frac{1}{3}$$, $$1 \to \frac{2}{3}$$, $$0 \to \frac{2}{3}$$, $$1 \to \frac{1}{3}$$, $$0 \to 1$$, $$1 \to 0$$
+
+While evaluating for $$t=\frac{1}{2}$$ gives:
+
+$$
+	\begin{align}
+		\label{CubicMid}
+		\frac{3}{4} \left(\mathbf{P_3 + P_2 - (P_1 + P_0)}\right) = A\left(\frac{\mathbf{P_0 + 3 P_1 + 3 P_2 + P_3}}{8} \right)
+	\end{align}
+$$
