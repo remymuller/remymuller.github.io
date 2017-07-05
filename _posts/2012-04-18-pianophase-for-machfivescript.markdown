@@ -19,9 +19,9 @@ tags:
 - steve
 ---
 
-Here's a very small script that regenerates [Steve Reich](http://en.wikipedia.org/wiki/Steve_Reich)'s [_Piano phase_](http://www.youtube.com/watch?v=JW4_8KjmzZk) piece for 2 pianos in [Falcon](http://www.uvi.net/falcon.html) using [UVIScript](http://www.uvi.net/uviscript/) to generate the phasing piano parts. 
-
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F43538091"></iframe>
+
+Here's a very small script that regenerates [Steve Reich](http://en.wikipedia.org/wiki/Steve_Reich)'s [_Piano phase_](http://www.youtube.com/watch?v=JW4_8KjmzZk) piece for 2 pianos in [Falcon](http://www.uvi.net/falcon.html) using [UVIScript](http://www.uvi.net/uviscript/) to generate the phasing piano parts. 
 
     
 {% highlight lua %}
