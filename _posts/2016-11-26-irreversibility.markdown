@@ -3,7 +3,7 @@ author: remy
 comments: false
 layout: post
 slug: irreversibility
-title: Dissipation to conservative irreversiblity
+title: Conservative Dissipation?
 categories:
 - science
 ---
@@ -16,7 +16,7 @@ $$
 	\end{equation}
 $$
 
-where $$J = -J^T$$ is a skew-symmetric matrix that has an energy conservation role and $$R = R^T$$ is a symmetric positive definite matrix that has the Rayleigh dissipation rate $$x^T R x$$, is equivalent to an _irreversible modulated_ conservative Poisson system in higher dimension. 
+where $$J = -J^T$$ is a skew-symmetric matrix that has an energy conservation role and $$R = R^T$$ is a symmetric positive definite matrix that has the Rayleigh dissipation rate $$x^T R x$$, is equivalent to a _nonlinear irreversibly modulated conservative_ Poisson system in higher dimension. 
 
 $$
 	\begin{equation}
@@ -72,7 +72,7 @@ $$
 	\end{align}
 $$
 
-The consequence of this, is that any energy-preserving numerical scheme applied to the extended system has the side-effect of preserving the _disspative invariant_
+The consequence of this, is that any energy-preserving numerical scheme applied to the extended system has the side-effect of preserving the _dissipative invariant_
 
 The energy is indeed conserved and transmitted _irreversibly_ toward the $$z$$ coordinate
 
