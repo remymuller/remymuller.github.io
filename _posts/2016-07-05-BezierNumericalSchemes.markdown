@@ -123,17 +123,19 @@ $$
 \end{align}
 $$
 
-$$\mathbf{P_1}$$ can be interpreted both as the truncated _forward_ taylor series prediction of order 1 from $$t=0 \to t=\frac{1}{2}$$ and as the truncated _backward_ taylor series prediction of order 1 from $$t=1 \to t=\frac{1}{2}$
+$$\mathbf{P_1}$$ can be interpreted both as the truncated _forward_ taylor series prediction of order 1 from $$t=0 \to \frac{1}{2}$$ and as the truncated _backward_ taylor series prediction of order 1 from $$t=1 \to \frac{1}{2}$$
 
 And by evaluating the second derivative for $$t \in \{0,1\}$$ we get the following relations:
+
 $$
 	\begin{align} 
 		\label{QuadForward2}
-		\mathbf{P_2} = (I + A + \frac{A^2}{2})\mathbf{P_0}\\
+		\mathbf{P_2} = \left(I + A + \frac{A^2}{2}\right)\mathbf{P_0}\\
 		\label{QuadBackward2}
-		\mathbf{P_0} = (I - A + \frac{A^2}{2})\mathbf{P_2}
+		\mathbf{P_0} = \left(I - A + \frac{A^2}{2}\right)\mathbf{P_2}
 	\end{align}
 $$
 
-which are respectively the truncated _forward_ taylor series prediction of order 2 from $$t=0 \to t=1$$ and as the truncated _backward_ taylor series prediction of order 1 from $$t=1 \to t=0$$
+which are respectively the truncated _forward_ taylor series prediction of order 2 from $$t=0 \to 1$$ and as the truncated _backward_ taylor series prediction of order 1 from $$t=1 \to 0$$
+
 
