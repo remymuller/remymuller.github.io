@@ -12,7 +12,7 @@ categories:
 
 by composer [Robin Minard](http://www.erratum.org/minard/minard.html)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0017.jpg)
+![]({{ site.url }}/images/s0undb1ts/0017.jpg)
 
 [s0undb1ts](http://www.s0undb1ts.org/) is  a sound installation by Robin Minard which uses a matrix of 576  independant loudspeakers.
 
@@ -22,20 +22,20 @@ I've followed the installation's genesis from  the early beginning: soldering ca
 ## Pictures
 
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000062.jpg)
+![]({{ site.url }}/images/s0undb1ts/000062.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0060.jpg)
+![]({{ site.url }}/images/s0undb1ts/0060.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0055.jpg)
+![]({{ site.url }}/images/s0undb1ts/0055.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000045.jpg)
+![]({{ site.url }}/images/s0undb1ts/000045.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000059.jpg)
+![]({{ site.url }}/images/s0undb1ts/000059.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000042.jpg)
+![]({{ site.url }}/images/s0undb1ts/000042.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/0092.jpg)
+![]({{ site.url }}/images/s0undb1ts/0092.jpg)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/000019.jpg)
+![]({{ site.url }}/images/s0undb1ts/000019.jpg)
 
 [more photos of s0undb1ts](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/s0undb1ts/)
