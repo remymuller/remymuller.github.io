@@ -146,6 +146,7 @@ As we have demonstrated in the previous section, this is equivalent to matching 
 ### Quadratic (2,0)
 
 Using the first relations leads to the following prediction:
+
 $$
 	\begin{align}
 		\mathbf{P_1} &= \left(I+\frac{A}{2}\right) \mathbf{P_0} \\
