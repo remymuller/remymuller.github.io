@@ -3,7 +3,7 @@ author: remy
 comments: false
 layout: post
 slug: irreversibility
-title: Conservative Dissipation?
+title: Irreversibility: Conservation or Dissipation?
 categories:
 - science
 ---
