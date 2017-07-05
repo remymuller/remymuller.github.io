@@ -66,7 +66,7 @@ So let's try to generalize further and find a parametric version:
 
 To generalize the interleave operator we had to introduce a new helper **selector** that just select one cable among N. It's quite simple to implement thanks to [faust term rewriting](http://lac.linuxaudio.org/2010/papers/30.pdf) and pattern matching rules.
 
-![]({{ site.url }}/images/parametric_butterfly.png)
+![]({{ site.url }}/images/hadamard/parametric_butterfly.png)
 
 
 # II. The hadamard matrix
@@ -79,7 +79,7 @@ Now we can easily derive the generic version of the hadamard matrix using recurs
     hada(n) = butterfly(n) : (hada(n/2) , hada(n/2));
 
 
-[![](http://remymuller.net/wp-content/uploads/2010/12/hadamard4-300x285.png)](http://remymuller.net/wp-content/uploads/2010/12/hadamard4.png)
+![]({{ site.url }}/images/hadamard/hadamard4.png){:width=300}
 
 This is working correctly and we shouldn't care much about all those wires on screen. Faust simplififes them before generating code.
 
