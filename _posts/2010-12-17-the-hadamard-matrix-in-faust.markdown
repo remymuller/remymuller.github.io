@@ -14,7 +14,7 @@ tags:
 - faust
 ---
 
-![]({{ site.url }}/images/hadamard/hada8compact.png){:width="320"}
+![]({{ site.url }}/images/hadamard/hada8compact.png){:width="640"}
 
 Some time ago, I had an email discussion with with Yann Orlarey from GRAME (the FAUST dsp language creator) about the best way to implement an hadamard matrix operator with FAUST. Here is a summary.
 
