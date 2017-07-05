@@ -91,3 +91,12 @@ The energy is indeed conserved and transmitted _irreversibly_ toward the $$z$$ c
 The decay rate is also better with this approach compared to the Trapezoidal rule simulation
 
 ![]({{ site.url }}/images/irreversibility/energy_decay.png){:width="640"}
+
+
+### References:
+
+- Daniel Fish. Dissipative perturbations of 3d hamiltonian systems, 506.
+- Bernhard Maschke, Romeo Ortega, and Arjan J. van der Schaft. Energy- based lyapunov functions for forced hamiltonian systems with dissipa- tion. IEEE transactions on automatic control, 45(8):1498–1502, 2000.
+- P. J. Morrison. A paradigm for joined Hamiltonian and dissipative sys- tems. Physica D Nonlinear Phenomena, 18:410–419, January 1986.
+
+
