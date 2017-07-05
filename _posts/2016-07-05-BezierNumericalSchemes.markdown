@@ -40,9 +40,9 @@ The linear bezier spline is defined for $$t \in [0,1]$$ and the control points $
 
 $$
 \begin{align}
-	\mathbf{B(t)} &= \mathbf{P_0}(1-t) + \mathbf{P_1} t \\
+	\mathbf{B}(t) &= \mathbf{P_0}(1-t) + \mathbf{P_1} t \\
 	\label{LinearBezierDerivative}
-	\mathbf{\dot B(t)} &= \mathbf{P_1 - P_0} 
+	\mathbf{\dot B}(t) &= \mathbf{P_1 - P_0} 
 \end{align}	
 $$
 
@@ -112,11 +112,11 @@ The quadratic bezier spline is defined for $$t \in [0,1]$$ and the control point
 
 $$
 	\begin{align}
-		\mathbf{B(t)} &= \mathbf{P_0}(1-t)^2 + \mathbf{P_1} 2(1-t)t + \mathbf{P_2} t^2 \\
+		\mathbf{B}(t) &= \mathbf{P_0}(1-t)^2 + \mathbf{P_1} 2(1-t)t + \mathbf{P_2} t^2 \\
 		\label{QuadraticBezierDerivative}
-		\mathbf{\dot B(t)} &= 2(1-t)\mathbf{(P_1 - P_0)} + 2t \mathbf{(P_2 - P_1)} \\
+		\mathbf{\dot B}(t) &= 2(1-t)\mathbf{(P_1 - P_0)} + 2t \mathbf{(P_2 - P_1)} \\
 		\label{QuadraticBezierSecondDerivative} 
-		\mathbf{\ddot B(t)} &= 2\mathbf{(P_2 - 2P_1 + P_0)}
+		\mathbf{\ddot B}(t) &= 2\mathbf{(P_2 - 2P_1 + P_0)}
 	\end{align}	
 $$
 
@@ -212,7 +212,7 @@ The cubic bezier spline is defined for $$t \in [0,1]$$ and the control points $$
 
 $$
 	\begin{align}
-		\mathbf{B(t)} &= \mathbf{P_0}(1-t)^3 + \mathbf{P_1} 3(1-t)^2t + \mathbf{P_2} 3(1-t)t^2 + \mathbf{P_3}t^3\\
+		\mathbf{B}(t) &= \mathbf{P_0}(1-t)^3 + \mathbf{P_1} 3(1-t)^2t + \mathbf{P_2} 3(1-t)t^2 + \mathbf{P_3}t^3\\
 		\label{CubicBezierDerivative}
 		\mathbf{\dot B}(t) &= 3(1-t)^2\mathbf{(P_1 - P_0)} 
 						   + 6(1-t)t \mathbf{(P_2 - P_1)} 
