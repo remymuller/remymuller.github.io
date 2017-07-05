@@ -14,6 +14,8 @@ tags:
 - faust
 ---
 
+![]({{ site.url }}/images/hadamard/hada8compact.png){:width="320"}
+
 Some time ago, I had an email discussion with with Yann Orlarey from GRAME (the FAUST dsp language creator) about the best way to implement an hadamard matrix operator with FAUST. Here is a summary.
 
 The [Hadamard Matrix](http://mathworld.wolfram.com/HadamardMatrix.html) is commonly used in [Feedback Delay Networks](https://ccrma.stanford.edu/~jos/cfdn/Feedback_Delay_Networks.html) to maximize diffusion.
