@@ -18,6 +18,17 @@ We will show how the bezier splines lead naturally to well known numerical integ
 
 In the following, to simplify notation, each time step is normalised to $$[0,1]$$ thus the $$A$$ matrix is supposed to be pre-normalised by the stepsize $$h$$
 
+In the general case a Bezier Spline is defined by
+
+$$
+	\mathbf B(t) = \sum{k=0}^(n} \mathbf P_k B_k^n(t)
+$$
+
+For the control points $$\{ \mathbf P_k \}$$ with the basis functions
+
+$$
+	B_k^n(t) = \binom{n}{k} (1-t)^{n-k} t^k
+$$
 
 We will first study the well-known Linear, Quadratic and Cubic bezier splines and the respective numerical schemes that they can generate.
 
@@ -190,7 +201,7 @@ $$
 	R(z) = \frac{1}{1-z+\frac{z^2}{2}}
 $$
 
-Remark= This is the Pade (0,2) approximation of $$e^z$$.	
+Remark: This is the Pade (0,2) approximation of $$e^z$$.	
 
 
 
