@@ -46,7 +46,7 @@ title: Remy Muller
                     out += '<div>'; 
                     out += '<b>' + doc.authFullName_s + "</b>, ";
                     out += '<a href="' + doc.uri_s + '">' + doc.title_s + '</a>, ';
-                    if(doc.conferenceTitle_s != "undefined")
+                    if(doc.conferenceTitle_s)
                     {
                         out += '<i>' + doc.conferenceTitle_s + '</i>, '                         
                     }
