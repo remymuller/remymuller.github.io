@@ -14,7 +14,7 @@ It was quite a revelation for me to understand that a _dissipative_ LTI state-sp
 
 $$
 	\begin{equation}
-		\dot{\mathbf x} = (J-R) \mathbf x
+		\dot{\mathbf x}(t) = (J-R) \mathbf x(t)
 	\end{equation}
 $$
 
@@ -46,7 +46,7 @@ It has pulsation $$\omega$$ and dissipation rate $$\sigma$$
 
 $$
 	\begin{equation}
-		\dot E = \nabla H(\mathbf x)^T \dot {\mathbf x} = -\sigma x^2
+		\dot E(t) = \nabla H(\mathbf x)^T \dot {\mathbf x} = -\sigma x(t)^2
 	\end{equation}
 $$
 
@@ -60,7 +60,7 @@ $$
 
 We wish to find the dynamic on $$z$$ in order to have a conservative hamiltonian $$H_e(x,y,z) = C$$, i.e. $$\frac{d}{dt} H_e(x,y,z) = 0$$
 
-This is satisfied by
+This is satisfied by the system
 
 $$
 	\begin{equation}
@@ -76,11 +76,11 @@ $$
 	\end{equation}
 $$
 
-with $$J(\mathbf X) =-J^T(\mathbf X)$$. We have converted a _linear time-invariant dissipative_ problem to a _conservative time-variant_ one on the surface of a sphere. Indeed:
+with $$J(\mathbf X) =-J(\mathbf X)^T$$. We have converted a _linear time-invariant dissipative_ problem to a _nonlinear conservative time-variant_ one on the surface of a sphere. Indeed its energy variation is given by:
 
 $$
 	\begin{align}
-		\dot E = \nabla H_e(\mathbf X)^T \dot{\mathbf X} = -\sigma x^2 + \sigma x^2 = 0 
+		\dot E(t) = \nabla H_e(\mathbf X)^T \dot{\mathbf X} = -\sigma x(t)^2 + \sigma x(t)^2 = 0 
 	\end{align}
 $$
 
@@ -94,6 +94,7 @@ The decay rate is also closer to the exact solution with this approach compared 
 
 ![]({{ site.url }}/images/irreversibility/energy_decay.png){:width="640"}
 
+N.B.: in this example $$z$$ is not an entropy, it is Homogenous to the square root of an energy. Using an entropy instead would change the manifold from a sphere to a paraboloid. Because of the division by $$z$$ its initial value shouldn't be null and it raises the interresting question: ["What was the initial value of the entropy of the universe"?](https://physics.stackexchange.com/questions/154307/what-was-the-entropy-of-the-universe-at-the-time-of-the-big-bang)
 
 ### References:
 
