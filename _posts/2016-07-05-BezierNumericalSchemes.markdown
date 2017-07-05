@@ -35,7 +35,7 @@ $$
 
 where $$\mathbf{P_0, P_1}$$ are the end-points of the curve.
 
-By evaluating The above equations for $$t=\{0, \frac{1}{2}, 1\}$$ we get the following relations:
+By evaluating The above equations for $$t=\left\{0, \frac{1}{2}, 1\right\}$$ we get the following relations:
 
 $$
 	\begin{align} 
