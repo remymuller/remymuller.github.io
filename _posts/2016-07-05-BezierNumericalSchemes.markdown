@@ -256,3 +256,101 @@ $$
 		\frac{3}{4} \left(\mathbf{P_3 + P_2 - (P_1 + P_0)}\right) = A\left(\frac{\mathbf{P_0 + 3 P_1 + 3 P_2 + P_3}}{8} \right)
 	\end{align}
 $$
+
+
+Mixing equations leads to different numerical approximations corresponding to the Pade (m,n) approximations of $$e^z$$ with $$m+n=3$$.
+
+### Cubic (3,0)
+Choosing forward prediction leads to
+
+$$
+	\begin{align}
+		\mathbf{P_1} &= \left(I + \frac{A}{3}\right)\mathbf{P_0} \\
+		\mathbf{P_2} &= \left(I+\frac{2A}{3} + \frac{A^2}{6}\right) \mathbf{P_0} \\
+		\mathbf{P_3} &= \left(I + A + \frac{A^2}{2} + \frac{A^3}{6}\right)\mathbf{P_0} 
+	\end{align}
+$$
+
+with stability region 
+$$
+	R(z) = 1+z+\frac{z^2}{2}+\frac{z^3}{6}
+$$
+
+Remark: This is the Pade (3,0) approximation of $$e^z$$.	
+
+
+### Cubic (2,1)
+
+$$
+	\begin{align}
+		\mathbf{P_1} &= \left(I + \frac{A}{3}\right)\mathbf{P_0} \\
+		\mathbf{P_2} &= \left(I+\frac{2A}{3} + \frac{A^2}{6}\right) \mathbf{P_0} \\
+		\mathbf{P_3} &= \left(I - \frac{A}{3}\right)^{-1}\left(I+\frac{2A}{3} + \frac{A^2}{6}\right) \mathbf{P_0}
+	\end{align}
+$$
+
+with stability region 
+$$
+	R(z) = \frac{1+\frac{2z}{3}+\frac{z^2}{6}}{1-\frac{z}{3}}
+$$
+
+Remark: This is the Pade (2,1) approximation of $$e^z$$.	
+
+### Cubic $$(1+\frac{1}{2},1+\frac{1}{2})$$
+
+Choosing forward-backward leads to the predictor
+
+$$
+	\begin{align}
+		\mathbf{P_1} &= \left(I + \frac{A}{3}\right)\mathbf{P_0} \\
+		\mathbf{P_3} &= \left(I - \frac{A}{2} + \frac{A^2}{12}\right)^{-1} \left(I + \frac{A}{2} + \frac{A^2}{12}\right)\mathbf{P_0} \\	
+		\mathbf{P_2} &= \left(I - \frac{A}{3}\right)^{-1}\mathbf{P_3} 	
+	\end{align}
+$$
+
+with stability region 
+$$
+	R(z) = \frac{1+\frac{z}{2}+\frac{z^2}{12}}{1-\frac{z}{2} + \frac{z^2}{12}}
+$$
+
+Remark: As in the linear mid-point case, the symmetry of the mid-point collocation point allows to reach super-convergence of order 4 while the polynomial is only of degree 3.
+
+Remark2: This is the Pade (2,2) approximation of $$e^z$$.	
+
+
+### Cubic (1,2)
+
+$$
+	\begin{align}
+		\mathbf{P_1} &= \left(I + \frac{A}{3}\right)\mathbf{P_0} \\
+		\mathbf{P_3} &= \left(I - \frac{2A}{3} + \frac{A^2}{6}\right)^{-1}\left(I+\frac{A}{3}\right) \mathbf{P_0} \\
+		\mathbf{P_2} &= \left(I-\frac{A}{3}\right) \mathbf{P_3} 
+	\end{align}
+$$
+
+with stability region 
+$$
+	R(z) = \frac{1+\frac{z}{3}}{1-\frac{2z}{3}+\frac{z^2}{6}}
+$$
+
+Remark: This is the Pade (1,2) approximation of $$e^z$$.	
+
+
+### Cubic (0,3)
+Choosing backward predictions leads to
+
+$$
+	\begin{align}
+		\mathbf{P_3} &= \left(I -A + \frac{A^2}{2} - \frac{A^3}{6}\right)^{-1}\mathbf{P_0} \\
+		\mathbf{P_1} &= \left(I-\frac{2A}{3} + \frac{A^2}{6}\right) \mathbf{P_3} \\
+		\mathbf{P_2} &= \left(I - \frac{A}{3}\right)\mathbf{P_3} 
+	\end{align}
+$$
+
+with stability region 
+$$
+	R(z) = \frac{1}{1-z+\frac{z^2}{2}-\frac{z^3}{6}}
+$$
+
+Remark: This is the Pade (0,3) approximation of $$e^z$$.	
+
