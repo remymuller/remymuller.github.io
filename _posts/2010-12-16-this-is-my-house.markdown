@@ -13,7 +13,7 @@ categories:
 **choregrapher**: [Myriam Gourfink](http://www.myriam-gourfink.com/)<br/>
 **composer**: [Kasper Toeplitz](http://www.sleazeart.com/)
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/AA001-1-small.jpg){:width="640"}
+![]({{ site.url }}/images/timh/images/AA001-1-small.jpg){:width="640"}
 
 
     This is my house: 
@@ -52,35 +52,26 @@ activity of each dancer
 all the analysis is performed using the [MnM/FTM](http://recherche.ircam.fr/equipes/temps-reel/ftm/mnm.html) library for MaxMSP.
 
 
-## links
-
-
-[http://www.theatrequimper.asso.fr/saison/fiche.php?ids=134](http://www.theatrequimper.asso.fr/saison/fiche.php?ids=134)
-
-[http://www.t-n-b.fr/festival/fiche.asp?mettreensceneid=136](http://www.t-n-b.fr/festival/fiche.asp?mettreensceneid=136)
-
-[http://www.centrepompidou.fr/](http://www.centrepompidou.fr/Pompidou/Manifs.nsf/0/72611B4D368C5698C12570B40051A02B?OpenDocument&sessionM=2.1.2&L=2&form=Prochainement)
-
 
 ## Pictures
 
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/AA008.JPG){:width="640"}
+![]({{ site.url }}/images/timh/AA008.JPG){:width="640"}
 the dance score (custom laban notation).
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/AA013-1.jpg){:width="640"}
+![]({{ site.url }}/images/timh/AA013-1.jpg){:width="640"}
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/AA015-1.jpg){:width="640"}
+![]({{ site.url }}/images/timh/AA015-1.jpg){:width="640"}
 rehearsals (first part of the performance).
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/TIMH_Centre_Pompidou_fevrier_2006_101.jpg){:width="640"}
+![]({{ site.url }}/images/timh/TIMH_Centre_Pompidou_fevrier_2006_101.jpg){:width="640"}
 duo (second part of the performance).
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/TIMH_Centre_Pompidou_fevrier_2006_096.jpg){:width="640"}
+![]({{ site.url }}/images/timh/TIMH_Centre_Pompidou_fevrier_2006_096.jpg){:width="640"}
 saxophone+electronic for the second part of the performance.
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/TIMH_Centre_Pompidou_fevrier_2006_055.jpg){:width="640"}
+![]({{ site.url }}/images/timh/TIMH_Centre_Pompidou_fevrier_2006_055.jpg){:width="640"}
 Kasper Toeplitz working on the music.
 
-![](http://recherche.ircam.fr/equipes/temps-reel/movement/muller/images/TMH-BW-BB.JPG){:width="640"}
+![]({{ site.url }}/images/timh/TMH-BW-BB.JPG){:width="640"}
 a black & white shot during the rehearsals.
