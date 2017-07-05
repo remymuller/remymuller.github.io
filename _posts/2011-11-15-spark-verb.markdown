@@ -31,3 +31,5 @@ Modulation depth: 10-20 cents
 * [Cello2]({{ site.url }}/sounds/mp3/SparkVerb_Cello2.mp3)
 * [Koto]({{ site.url }}/sounds/mp3/SparkVerb_Koto.mp3)
 * [Toy guitar]({{ site.url }}/sounds/mp3/SparkVerb_TriggeredGuitar.mp3) 
+
+Edit: This reverb is now called [SparkVerb](https://www.uvi.net/fr/software/sparkverb.html) and is available as an audio plugin 
