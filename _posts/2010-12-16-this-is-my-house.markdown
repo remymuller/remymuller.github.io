@@ -7,7 +7,7 @@ slug: this-is-my-house
 title: This is My House
 wordpress_id: 47
 categories:
-- Art
+- art
 ---
 
 **choregrapher**: [Myriam Gourfink](http://www.myriam-gourfink.com/)<br/>
