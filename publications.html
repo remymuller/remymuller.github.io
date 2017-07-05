@@ -28,17 +28,28 @@ title: Remy Muller
                 var out = "";
                 var i;
                 var doc_types = ["COMM", "POSTER"];
-                out += "<ul>"
+                // out += "<ul>"
+                // for(i = 0; i < docs.length; i++) 
+                // {
+                //     out += '<li>' 
+                //     + '<b>' + docs[i].authFullName_s + "</b>, " 
+                //     + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
+                //     + '<i>' + docs[i].conferenceTitle_s + '</i>, ' 
+                //     + docs[i].producedDateY_i
+                //     +'</li>'
+                // }
+                // out += "</ul>"
+                out += ""
                 for(i = 0; i < docs.length; i++) 
                 {
-                    out += '<li>' 
+                    out += '<div>' 
                     + '<b>' + docs[i].authFullName_s + "</b>, " 
                     + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
                     + '<i>' + docs[i].conferenceTitle_s + '</i>, ' 
                     + docs[i].producedDateY_i
-                    +'</li>'
+                    +'</div>'
                 }
-                out += "</ul>"
+                out += ""
                 document.getElementById("Publications").innerHTML = out;
             }
           </script>  
