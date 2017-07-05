@@ -1,0 +1,42 @@
+---
+layout: default
+title: Remy Muller
+---
+
+<div id="home">
+  <h1>Publications</h1>
+  <div class="post">
+	  <div id="Publications"></div>
+          <script>
+            var xmlhttp = new XMLHttpRequest();
+            var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,docType_s,producedDateY_i"; // TODO &sort=champ_s
+            xmlhttp.onreadystatechange = function() 
+            {
+                if (this.readyState == 4 && this.status == 200) 
+                {
+                    format_json(xmlhttp.responseText);
+                }
+            };
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+
+            function format_json(text) 
+            {
+                var json_data = JSON.parse(text);
+                var docs = json_data.response.docs
+                var out = "";
+                var i;
+                var doc_types = ["COMM", "POSTER"];
+                for(i = 0; i < docs.length; i++) 
+                {
+                    out += '<div>' 
+                    + docs[i].authFullName_s + ", " 
+                    + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
+                    + docs[i].conferenceTitle_s + ', ' 
+                    + docs[i].producedDateY_i
+                    +'</div><br/>'
+                }
+                document.getElementById("Publications").innerHTML = out;
+            }
+          </script>  </div>
+</div>
