@@ -12,19 +12,19 @@ It was quite a revelation for me to understand that a _dissipative_ LTI state-sp
 
 $$
 	\begin{equation}
-		\dot x = (J-R) x
+		\dot{\mathbf x} = (J-R) \mathbf x
 	\end{equation}
 $$
 
-where $$J = -J^T$$ is a skew-symmetric matrix that has an energy conservation role and $$R = R^T$$ is a symmetric positive definite matrix that has the Rayleigh dissipation rate $$x^T R x$$, is equivalent to a _nonlinear irreversibly modulated conservative_ Poisson system in higher dimension. 
+where $$J = -J^T$$ is a skew-symmetric matrix that has an energy conservation role and $$R = R^T$$ is a symmetric positive definite matrix that generates the Rayleigh dissipation rate $$\mathbf x^T R \mathbf x$$, is equivalent to a _nonlinear irreversibly modulated conservative_ Poisson system in higher dimension. 
 
 $$
 	\begin{equation}
-		\dot X = J(X) X
+		\dot{\mathbf X} = J(\mathbf X) \mathbf X
 	\end{equation}
 $$
 
-by extending the state vector $$x$$ with an entropy-like variable $$z$$ that has the role of accumulating the dissipated energy.
+by extending the state vector $$\mathbf x$$ with an entropy-like variable $$z$$ that has the role of accumulating the dissipated energy.
 
 To make it easier to understand let's use a damped harmonic oscillator with the following dynamic equation
 
@@ -44,7 +44,7 @@ with the energy dissipation rate $$\sigma$$
 
 $$
 	\begin{equation}
-		\dot E = -\sigma x^2
+		\dot E = \nabla H(\mathbf x)^T \dot {\mathbf x} = -\sigma x^2
 	\end{equation}
 $$
 
@@ -64,15 +64,15 @@ i.e.
 
 $$
 	\begin{equation}
-		\dot X = J(X) X
+		\dot {\mathbf X} = J(\mathbf X) \mathbf X
 	\end{equation}
 $$
 
-with $$J(X) =-J^T(X)$$. We have converted a _linear time-invariant dissipative_ problem to a _conservative time-variant_ one on the surface of a sphere. Indeed:
+with $$J(\mathbf X) =-J^T(\mathbf X)$$. We have converted a _linear time-invariant dissipative_ problem to a _conservative time-variant_ one on the surface of a sphere. Indeed:
 
 $$
 	\begin{align}
-		\dot E = \nabla H(X)^T \dot X = -\sigma x^2 + \sigma x^2 = 0 
+		\dot E = \nabla H(\mathbf X)^T \dot{\mathbf X} = -\sigma x^2 + \sigma x^2 = 0 
 	\end{align}
 $$
 
