@@ -29,6 +29,5 @@ Modulation depth: 10-20 cents
 * [Contrebasse]({{ site.url }}/sounds/mp3/SparkVerb_Contrebasse.mp3)
 * [Cello1]({{ site.url }}/sounds/mp3/SparkVerb_Cello.mp3)
 * [Cello2]({{ site.url }}/sounds/mp3/SparkVerb_Cello2.mp3)
-* [Flute]({{ site.url }}/sounds/mp3/SparkVerb_Flute.mp3)
 * [Koto]({{ site.url }}/sounds/mp3/SparkVerb_Koto.mp3)
 * [Toy guitar]({{ site.url }}/sounds/mp3/SparkVerb_TriggeredGuitar.mp3) 
