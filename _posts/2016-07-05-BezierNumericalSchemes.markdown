@@ -206,4 +206,24 @@ $$
 Remark: This is the Pade (0,2) approximation of $$e^z$$.	
 
 
+# Cubic Bezier Spline
+
+The cubic bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1, P_2, P_3} \in \mathbb{R}^n$$ as
+
+$$
+	\begin{align}
+		\mathbf{B(t)} &= \mathbf{P_0}(1-t)^3 + \mathbf{P_1} 3(1-t)^2t + \mathbf{P_2} 3(1-t)t^2 + \mathbf{P_3}t^3\\
+		\label{CubicBezierDerivative}
+		\mathbf{\dot B(t)} &= 3(1-t)^2\mathbf{(P_1 - P_0)} 
+						   + 6(1-t)t \mathbf{(P_2 - P_1)} 
+						   + 3t^2 \mathbf{(P_3 - P_2)}\\
+		\label{CubicBezierSecondDerivative}
+		\mathbf{\ddot B(t)} &= 6(1-t)\mathbf{(P_2 - 2P_1 + P_0)} + 6t \mathbf{(P_3 - 2P_2 + P_1)} \\
+		\label{CubicBezierThirdDerivative}
+		\mathbf{\dddot B(t)} &= 6\mathbf{(P_3 - 3P_2 + 3P_1 - P_0)}
+	\end{align}	
+$$
+
+where $$\mathbf{P_0, P_3}$$ are the end-points of the curve and $\mathbf{P_0, P_1 P_2, P_3 }$ is the control polygon.
+
 
