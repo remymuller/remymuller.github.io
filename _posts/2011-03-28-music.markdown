@@ -5,6 +5,7 @@ date: 2011-03-28 09:46:52+00:00
 layout: page
 slug: music
 title: Music
+published: false
 wordpress_id: 126
 categories:
 - music
