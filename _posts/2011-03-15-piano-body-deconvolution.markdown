@@ -11,7 +11,7 @@ categories:
 - science
 ---
 
-This is a simple experiment with blind piano body deconvolution using log-spectrum averaging of the whole sounds FFTs (>37s) for all sounds in a piano database.
+This is a simple experiment with blind piano body deconvolution using log-spectrum averaging of the whole sound FFT (>37s) for all sounds in a piano database.
 
 - Here is the minimum phase IR extracted from all the highest velocities piano samples: [piano body V5]({{ site.url }}/sounds/piano_body/piano_body_V5.wav)
 - The minimum phase IR extracted from all the non sustained piano samples with highest velocity: [piano body nosus v5]({{ site.url }}/sounds/piano_body/piano_body_nosus_v5.wav)
