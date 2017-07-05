@@ -224,7 +224,7 @@ $$
 	\end{align}	
 $$
 
-where $$\mathbf{P_0, P_3}$$ are the end-points of the curve and $\mathbf{P_0, P_1 P_2, P_3 }$ is the control polygon.
+where $$\mathbf{P_0, P_3}$$ are the end-points of the curve and $$\mathbf{P_0, P_1 P_2, P_3 }$$ is the control polygon.
 
 
 By evaluating the first, second and third derivative for $$t \in \{0,1\}$$ and rearranging terms, we get the following relations:
