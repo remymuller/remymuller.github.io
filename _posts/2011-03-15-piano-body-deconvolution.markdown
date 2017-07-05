@@ -11,22 +11,18 @@ categories:
 - science
 ---
 
-deconvolution by log-spectrum averaging of the whole sounds FFTs (>37s).
+This is a simple experiment with blind piano body deconvolution using log-spectrum averaging of the whole sounds FFTs (>37s) for all sounds in a piano database.
 
-minimum phase IR extracted from all the highest velocities piano samples: [piano body V5]({{ site.url }}/sounds/piano_body/piano_body_V5.wav)
+- Here is the minimum phase IR extracted from all the highest velocities piano samples: [piano body V5]({{ site.url }}/sounds/piano_body/piano_body_V5.wav)
+- The minimum phase IR extracted from all the non sustained piano samples with highest velocity: [piano body nosus v5]({{ site.url }}/sounds/piano_body/piano_body_nosus_v5.wav)
+- The minimum phase IR extracted from all the release piano samples: [piano body Rls]({{ site.url }}/sounds/piano_body/piano_body_Rls.wav)
+- The minimum phase IR extracted from all the C3 samples: [piano body C3]({{ site.url }}/sounds/piano_body/piano_body_C3.wav)
+- And the C3-v4 excitation deconvolved by piano_body_C3: [German v4 C3 deconv]({{ site.url }}/sounds/piano_body/German-v4-C3.wav_deconv.wav)
 
-minimum phase IR extracted from all the non sustained piano samples with highest velocity: [piano body nosus v5]({{ site.url }}/sounds/piano_body/piano_body_nosus_v5.wav)
-
-minimum phase IR extracted from all the release piano samples: [piano body Rls]({{ site.url }}/sounds/piano_body/piano_body_Rls.wav)
-
-minimum phase IR extracted from all the C3 samples: [piano body C3]({{ site.url }}/sounds/piano_body/piano_body_C3.wav)
-
-C3-v4 excitation deconvolved by piano_body_C3: [German v4 C3 deconv]({{ site.url }}/sounds/piano_body/German-v4-C3.wav_deconv.wav)
-
+The extracted sounds obviously inherit the average EQ of the given sample set. 
 
 ### References:
 
 
-[http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf](http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf)
-
-[http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf](http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf)
+- [http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf](http://www.rle.mit.edu/dspg/documents/nonnlinearfiltering_1968.pdf)
+- [http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf](http://hal.archives-ouvertes.fr/docs/00/13/81/70/PDF/PSIP2007_fulpap.pdf)
