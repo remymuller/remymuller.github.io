@@ -303,7 +303,7 @@ $$
 
 Remark: This is the Pade (2,1) approximation of $$e^z$$.	
 
-### Cubic $$(1+\frac{1}{2},1+\frac{1}{2})$$
+### Cubic (2,2)
 
 Choosing forward-backward leads to the predictor
 
@@ -365,7 +365,7 @@ $$
 Remark: This is the Pade (0,3) approximation of $$e^z$$.	
 
 
-Cubic approximations of the solution of $$\dot y = \lambda y, \lambda=-2$$ with initial condition $$y_0=1$$ using cubic bezier splines (2,1) in green, (1,2) in blue and $$(1+\frac{1}{2},1+\frac{1}{2})$$ in red are given below
+Cubic approximations of the solution of $$\dot y = \lambda y, \lambda=-2$$ with initial condition $$y_0=1$$ using cubic bezier splines (2,1) in green, (1,2) in blue and $$(2,2)$$ in red are given below
 
 ![]({{ site.url }}/images/bezier/CubicBezier.png){:width="640"}
 
