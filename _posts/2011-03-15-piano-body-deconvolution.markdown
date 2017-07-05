@@ -19,7 +19,7 @@ This is a simple experiment with blind piano body deconvolution using log-spectr
 - The minimum phase IR extracted from all the C3 samples: [piano body C3]({{ site.url }}/sounds/piano_body/piano_body_C3.wav)
 - And the C3-v4 excitation deconvolved by piano_body_C3: [German v4 C3 deconv]({{ site.url }}/sounds/piano_body/German-v4-C3.wav_deconv.wav)
 
-The extracted sounds obviously inherit the average EQ of the given sample set. But the results are not bad given the simple means used.
+The extracted sounds obviously inherit the average EQ of the given sample set. But the results are not so bad given the simple means used.
 
 ### References:
 
