@@ -3,7 +3,7 @@ author: remy
 comments: false
 layout: post
 slug: irreversibility
-title: Irreversibility: Conservation or Dissipation?
+title: Irreversibility, Conservation or Dissipation?
 categories:
 - science
 ---
@@ -94,7 +94,7 @@ The decay rate is also closer to the exact solution with this approach compared 
 
 ![]({{ site.url }}/images/irreversibility/energy_decay.png){:width="640"}
 
-N.B.: in this example $$z$$ is not an entropy, it is Homogenous to the square root of an energy. Using an entropy instead would change the manifold from a sphere to a paraboloid. Because of the division by $$z$$ its initial value shouldn't be null and it raises the interresting question: ["What was the initial value of the entropy of the universe"?](https://physics.stackexchange.com/questions/154307/what-was-the-entropy-of-the-universe-at-the-time-of-the-big-bang)
+N.B.: in this example $$z$$ is not an entropy, it is homogenous to the square root of an energy. Using an entropy instead would change the manifold from a sphere to a paraboloid. Because of the division by $$z$$ its initial value shouldn't be null and it raises the interresting question: ["What was the initial value of the entropy of the universe"?](https://physics.stackexchange.com/questions/154307/what-was-the-entropy-of-the-universe-at-the-time-of-the-big-bang)
 
 ### References:
 
