@@ -15,24 +15,22 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
     </head>
     <body>
-
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              {% for cat in site.categories %}
-              <a class="extra" href="/{{ cat[0] | lower }}.html">{{ cat[0] }}</a>
-              {% endfor %}
-              <a class="extra" href="/publications.html">publications</a>
-              <a class="extra" href="/posts.html">posts</a>
+            <div class="site">
+                <div class="header">
+                  <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+                  {% for cat in site.categories %}
+                  <a class="extra" href="/{{ cat[0] | lower }}.html">{{ cat[0] }}</a>
+                  {% endfor %}
+                  <a class="extra" href="/publications.html">publications</a>
+                  <a class="extra" href="/posts.html">posts</a>
+                </div>
+                {{ content }}
             </div>
-
-            {{ content }}
-
-          </div>
         </div> <!-- /container -->
-
     </body>
 </html>
