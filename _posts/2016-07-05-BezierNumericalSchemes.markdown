@@ -21,7 +21,7 @@ In the following, to simplify notation, each time step is normalised to $$[0,1]$
 
 We will first study the well-known Linear, Quadratic and Cubic bezier splines and the respective numerical schemes that they can generate.
 
-## Linear Bezier spline
+# Linear Bezier spline
 
 The linear bezier spline is defined for $$t \in [0,1]$$ and the control points $$\mathbf{P_0, P_1} \in \mathbb{R}^n$$ as
 
@@ -49,7 +49,7 @@ By combining these equations, we can generate several different approximations t
 
 ## Forward Euler (1,0)
 
-Using the first relation and solving for $$P_1$$ leads to the following prediction:
+Using the first relation and solving for $$P_1$$ leads to the following forward prediction:
 
 $$
 	\begin{equation}
@@ -66,3 +66,43 @@ $$
 $$
 
 Remark: this is the Pade (1,0) approximation of $$e^z$$
+
+## Mid-point 
+
+Using the second relation and solving for $$P_1$$ leads to the following prediction:
+
+$$
+	\begin{align}
+		\mathbf{P_1} = \left(I-\frac{A}{2}\right)^{-1} \left(I+\frac{A}{2}\right) \mathbf{P_0}
+	\end{align}
+$$
+
+with stability region 
+
+$$
+	\begin{align}
+		R(z) = \frac{1+\frac{z}{2}}{1-\frac{z}{2}}
+	\end{align}
+$$
+
+Remark: This is the Pade (1,1) approximation of $$e^z$$. The symmetry of the collocation point within the interval allows to reach a consistency of order 2 while the polynomial is only of degree 1.	
+
+## Backward Euler (0,1)
+
+Using The third equation and solving for $$P_1$$ leads to the following prediction:
+
+$$
+	\begin{align}
+		\mathbf{P_1} = (I-A)^{-1} \mathbf{P_0}
+	\end{align}
+$$
+
+with stability region 
+
+$$
+	\begin{align}
+		R(z) = \frac{1}{1-z}
+	\end{align}
+$$
+
+Remark: This is the Pade (0,1) approximation of $$e^z$$
