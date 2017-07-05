@@ -8,7 +8,7 @@ categories:
 - science
 ---
 
-It was quite a revelation for me to understand that a linear time-invariant _dissipative_ state-space system
+It was quite a revelation for me to understand that a linear time-invariant _dissipative_ state-space system of the form
 
 $$
 	\begin{equation}
@@ -16,9 +16,7 @@ $$
 	\end{equation}
 $$
 
-with $J = -J^T$ and $R = R^T$
-
-is equivalent to an _irreversible_ _modulated_ conservative Poisson system
+where $$J = -J^T$$ is a skew-symmetric matrix that has an energy conservation role and $$R = R^T$$ is a symmetric positive definite matrix that has th Rayleigh dissipation rate $$x^T R x$$, is equivalent to an _irreversible_ _modulated_ conservative Poisson system
 
 $$
 	\begin{equation}
@@ -26,4 +24,6 @@ $$
 	\end{equation}
 $$
 
-In higher dimension, by extending the state vector $$x$$ to $$X = [x, S]$$ by accumulating the dissipated energy into an entropy-like variable $$S$$.
+in higher dimension. 
+
+Indeed, by extending the state vector $$x$$ to $$X = [x, S]^T$$ by accumulating the dissipated energy into an entropy-like variable $$S$$.
