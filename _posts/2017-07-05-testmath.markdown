@@ -12,7 +12,7 @@ testing inline math $$\dot x = (J-R) \nabla H(x) + G(x) u$$
 
 and display math
 $$
-\beging{equation}
+\begin{equation}
 	\dot x = (J-R) \nabla H(x) + G(x) u
 \end{equation}
 $$
