@@ -8,6 +8,8 @@ categories:
 - science
 ---
 
+![Loxodrome]({{ site.url }}/images/irreversibility/loxodrome12.jpg){:width="640"}
+
 It was quite a revelation for me to understand that a _dissipative_ LTI state-space system of the form
 
 $$
