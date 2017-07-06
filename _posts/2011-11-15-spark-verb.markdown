@@ -19,7 +19,7 @@ tags:
 - Reverb
 ---
 
-I'm testing the delay modulation algorithm for a new reverb I'm working on. It is not meant to faithfully reproduce natural room reverberation (but I don't mind if it does). Rather delay length modulation is meant to be heard as a blend between chorus / reverberation  / ensemble / unison.
+I am testing the delay modulation algorithm for a new reverb I am working on. It is not meant initially to faithfully reproduce natural room reverberation (but I don't mind if it does). Rather the delay length modulation is meant to be heard as a blend between chorus / reverberation  / ensemble / unison and the initial design goal is to make it sound good on synthetic sounds first.
 
 Here are some cinematic examples made with a very crude Feedback Delay Network prototype made in MaxMSP with only 4 delays and no loop filtering. Delay times were set manually without special care about being mutually prime.
 RT60: 10 seconds
