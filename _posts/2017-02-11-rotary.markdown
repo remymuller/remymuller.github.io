@@ -10,7 +10,7 @@ categories:
 
 ![Delay]({{ site.url }}/images/rotary/DelayLR_17.5_20cm_squared.png){:width="300"}
 
-While working on [Rotary](https://www.uvi.net/rotary.html), I had to the time to perform extensive measures and analysis on real rotary speakers. The usual ones like the Horn and Drum frequency and polar responses, the Doppler effect and some more unusual ones. Here's some findings that I found interresting.
+While working on [Rotary](https://www.uvi.net/rotary.html), I had to the time to perform extensive analysis of real rotary speakers. The usual ones like the Horn and Drum frequency and polar responses, the Doppler effect and some more unusual ones. Here's some findings that I found interresting.
 
 
 ## Angle-dependent delay
