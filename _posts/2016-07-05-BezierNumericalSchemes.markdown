@@ -14,7 +14,7 @@ $$
 	\mathbf{\dot y}(t) = f(\mathbf{y},t) = \mathbf{A y}(t)
 $$
 
-I will show how the bezier splines lead naturally to well known numerical integration schemes while giving a meaningful interpretation to their intermediate control points. This class of methods belong to the class of multi-derivative integrators and are known as Hermite-Obreshkoff. While much less known than the Runge-Kutta methods they can also regenerates the Padé approximation of the exponential map while providing dense piece-wise $$C^k$$ continuous trajectory approximations.
+I will show how the bezier splines lead naturally to well known numerical integration schemes while giving a meaningful interpretation to their intermediate control points. This class of methods belong to the class of multi-derivative integrators and are known as Hermite-Obreshkoff. While much less known than the Runge-Kutta methods, they can also regenerate the Padé approximations of the exponential map while providing dense piece-wise $$C^k$$ continuous trajectory approximations.
 
 In the following, to simplify notation, each time step is normalised to $$[0,1]$$ thus the $$A$$ matrix is supposed to be pre-normalised by the stepsize $$h$$
 
