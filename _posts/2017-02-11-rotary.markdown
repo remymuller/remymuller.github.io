@@ -47,4 +47,23 @@ However, by adding a transition probablity model and using forward-backward deco
 ![HMMDecoding]({{ site.url }}/images/rotary/acc_decc_horn_speedogram2.png){:width="640"}
 
 
-## Image-source diffraction
+## Image-source edge diffraction
+
+Finally, if we decide to model the reflections within the speaker cabiner using the image-source method with a semi-open enclosure. And if we allow custom virtual microphone placement around the cabinet, we immediately have to solve 2 problems that don't happen when the listener and the source are in the same room.
+
+The first, which is quite common in ray-tracing is the visibility culling. Indeed according to the listener placement around the cabinet, the "visible" sources and the visibiity cone are changing according to the listener placement
+
+![Culling2]({{ site.url }}/images/rotary/culling2.png){:width="640"}
+
+![Culling3]({{ site.url }}/images/rotary/culling3.png){:width="640"}
+
+Furthermore, since the source is rotating within the enclosure, according to the listener placement it can become alternativley visible and invisble withing a revolution.
+
+However, once we have solved this first problem, to continue the analogy with 3D ray-tracing, we immediately notice how problematic this kind of hard shadowing model can be. Indeed, sources appear then disappear discontinuously which in the audio world means annoying clicks and pops.
+
+In the real world fortunately, thanks to the Huygen principle, things are much smoother. Any sound ray that encounter the edge of the enclosure, is diffracted in all directions as if the edge was an acoustic source. 
+
+![Diffraction]({{ site.url }}/images/rotary/SourceImagesScattering.png){:width="640"}
+
+So even if a secondary source is "invisible" it still contributes to the acoustic sound-field measured by the microphones but with a different amplitude and propagation delay. Modelling this provides the soft-shadowing that was missing in the previous step.
+
