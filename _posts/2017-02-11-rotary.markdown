@@ -34,7 +34,7 @@ Indeed, the geometry of the Drum is closer to an open cube rotating about its ax
 
 ## Acceleration and decceleration curves
 
-Another interresting aspect of these rotating speakers is that acceleration/deceleration curves are not symmetric because of the rotor inertia. Direct measurement was difficult to setup, so I decided to extract these from its impact on the signal amplitude and frequency modulation. My first attempt was using heterodyne demodulation and analysis similar to pitch-tracking to recover the rotating speed. However having very few information per revolution tn infer an acceleration curve makes the task quite difficult when the goal is to recover a continuouas acceleration curve. So I decided to move to a Bayesian estimation framework using Hidden Markov Models to add as much of a priori knowledge as I could.
+Another interresting aspect of these rotating speakers is that acceleration/deceleration curves are not symmetric because of the rotor inertia. Direct measurement was difficult to setup, so I decided to extract these from the signal amplitude and frequency modulation. My first attempt was using heterodyne demodulation and analysis similar to pitch-tracking to recover the rotating speed. However having very few information per revolution tn infer an acceleration curve makes the task quite difficult when the goal is to recover a continuouas acceleration curve. So I decided to move to a Bayesian estimation framework using Hidden Markov Models to add as much of a priori knowledge as I could.
 
 Here is the raw speed observation probabilities I got after the feature analysis step:
 
