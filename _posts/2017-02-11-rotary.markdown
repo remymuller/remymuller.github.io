@@ -55,9 +55,13 @@ Finally, if we decide to model the reflections within the speaker cabiner using 
 
 The first, which is quite common in ray-tracing is the visibility culling. Indeed according to the listener placement around the cabinet, the "visible" sources and the visibiity cone are changing according to the listener placement
 
+![Culling3]({{ site.url }}/images/rotary/culling3.png){:width="640"}
+
+The listener is facing the open enclosure and quite close, its visibility cone is thus quite large, most image-sources are "visible"
+
 ![Culling2]({{ site.url }}/images/rotary/culling2.png){:width="640"}
 
-![Culling3]({{ site.url }}/images/rotary/culling3.png){:width="640"}
+The listener is far from the open enclosure, its visibility cone is much smaller, many image-sources are "invisible"
 
 Furthermore, since the source is rotating within the enclosure, according to the listener placement it can become alternativley visible and invisble withing a revolution.
 
