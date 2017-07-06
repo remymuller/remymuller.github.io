@@ -76,7 +76,7 @@ $$
 	\end{equation}
 $$
 
-with $$J(\mathbf X) =-J(\mathbf X)^T$$. We have converted a _linear time-invariant dissipative_ problem to a _nonlinear conservative time-variant_ one on the surface of a sphere. Indeed its energy variation is given by:
+with $$J(\mathbf X) =-J(\mathbf X)^T$$. We have converted a _linear time-invariant dissipative_ problem to a _nonlinear conservative time-variant_ one on the surface of a half-sphere. Indeed its energy variation is given by:
 
 $$
 	\begin{align}
