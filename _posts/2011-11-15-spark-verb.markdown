@@ -32,4 +32,4 @@ Modulation depth: 10-20 cents
 * [Koto]({{ site.url }}/sounds/mp3/SparkVerb_Koto.mp3)
 * [Toy guitar]({{ site.url }}/sounds/mp3/SparkVerb_TriggeredGuitar.mp3) 
 
-Edit: This reverb is now called [SparkVerb](https://www.uvi.net/software/sparkverb.html) and is available as an audio plugin 
+Edit: This early prototype has considerably evolved into a dedicated product which is now called [SparkVerb](https://www.uvi.net/software/sparkverb.html) and is available as an audio plugin.
