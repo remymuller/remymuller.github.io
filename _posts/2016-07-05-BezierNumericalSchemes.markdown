@@ -157,7 +157,7 @@ $$
 which are respectively the truncated _forward_ taylor series prediction of order 2 from $$t=0 \to 1$$ and as the truncated _backward_ taylor series prediction of order 1 from $$t=1 \to 0$$
 
 
-By combining equations these 4 equations we can generate several different approximations that we will label $$(m,n)$$ according to the fact that we use order $$m$$ forward prediction and order $$n$$ backward prediction. 
+By combining these 4 equations we can generate several different approximations that we will label $$(m,n)$$ according to the fact that we use order $$m$$ forward prediction and order $$n$$ backward prediction. 
 
 As we have demonstrated in the previous section, this is equivalent to matching respectively the first $m,n$ derivatives of the exact solution on the left and right of the interval.
 
