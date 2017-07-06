@@ -8,13 +8,13 @@ categories:
 - science
 ---
 
-We consider ordinary differential equations of the form
+I consider ordinary differential equations of the form
 
 $$
 	\mathbf{\dot y}(t) = f(\mathbf{y},t) = \mathbf{A y}(t)
 $$
 
-We will show how the bezier splines lead naturally to well known numerical integration schemes while giving a meaningful interpretation to their intermediate control points. 
+I will show how the bezier splines lead naturally to well known numerical integration schemes while giving a meaningful interpretation to their intermediate control points. 
 
 In the following, to simplify notation, each time step is normalised to $$[0,1]$$ thus the $$A$$ matrix is supposed to be pre-normalised by the stepsize $$h$$
 
