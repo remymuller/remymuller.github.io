@@ -27,12 +27,24 @@ These side-lobes have a noticeable impact on the Doppler effect which is not exa
 
 Doing the same kind of analysis on a rotating Drum speaker we see that we are getting further away from the circular trajectory.
 
-![Delay]({{ site.url }}/images/rotary/AM_PhasePlot_80cm.png){:width="640"}
+![DelayDrum]({{ site.url }}/images/rotary/AM_PhasePlot_80cm.png){:width="640"}
 
 Indeed, the geometry of the Drum is closer to an open cube rotating about its axial center than to an ideal point-source.
 
 
 ## Acceleration and decceleration curves
+
+Another interresting aspect of these rotating speakers is that acceleration/deceleration curves are not symmetric because of the intertia of rotor inertia. Direct measurement was difficult to setup, so I decided to extract these from its impact on the signal amplitude and frequency modulation. My first attempt was using heterodyne demodulation and analysis similar to pitch-tracking to recover the rotating speed. However having very few information per revolution tn infer an acceleration curve makes the task quite difficult when the goal is to recover a continuouas acceleration curve. So I decided to move to a Bayesian estimation framework using Hidden Markov Models to add as much of a priori knowledge as I could.
+
+Here is the raw speed observation probabilities I got after the feature analysis step:
+
+![HMMObs]({{ site.url }}/images/rotary/acc_decc_horn_speed_spectrogram.png){:width="640"}
+
+Quite ambiguous!
+
+However, by adding a transition probablity model and using forward-backward decoding, the state probabilities are now much cleaner and easier to analyze.
+
+![HMMDecoding]({{ site.url }}/images/rotary/acc_decc_horn_speedogram2.png){:width="640"}
 
 
 ## Image-source diffraction
