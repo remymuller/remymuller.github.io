@@ -3,33 +3,34 @@ author: remy
 comments: false
 layout: post
 slug: rotary
-title: Leslie horn modelling
+title: Rotary speaker modelling
 categories:
 - science
 ---
 
-While working on [Rotary](https://www.uvi.net/rotary.html), I had to the time to perform extensive measures and analysis on real rotary speakers. The usual ones like the Horn and Drum frequency and polar responses or the Doppler effect and some more unusual ones. Here's some findings that I found interresting.
+While working on [Rotary](https://www.uvi.net/rotary.html), I had to the time to perform extensive measures and analysis on real rotary speakers. The usual ones like the Horn and Drum frequency and polar responses, the Doppler effect and some more unusual ones. Here's some findings that I found interresting.
 
 
 ## Angle-dependent delay
 
 If we use several microphones around a moving acoustic source, by analysing the direct path propagation delay time from the source to each of the microphones, it is possible to infer the equivalent point-source trajectory as "seen" from the microphones. 
 
-In the case of a speaker rotating about a fixed center, if we setup 2 microphones at a 90° angle around the source, and plot the trajectory in the the $$(D_L, D_R)$$ plane, if the source was a point-source, we should see a circle, because of the invariant $$D_L^2 + D_R^2 = R^2$$, where $$D_L,D_R$$ are respectively the distances of the speaker to the left and right microphones and $$R$$ is the radius of the rotating speaker.
+In the case of a speaker rotating about a fixed center, if we setup 2 microphones at a 90° angle around the source, and plot the trajectory in the the $$(D_L, D_R)$$ plane, if the source was truely a point-source, we should see a circle trajectory because of the invariant $$D_L^2 + D_R^2 = R^2$$ where $$D_L,D_R$$ are respectively the distances of the speaker to the left and right microphones and $$R$$ is the radius of the rotating speaker.
 
 We did that and here's the result we got for a rotary speaker horn
 
-![Delay]({{ site.url }}/images/rotary/DelayLR_17.5_20cm_squared.png)
+![Delay]({{ site.url }}/images/rotary/DelayLR_17.5_20cm_squared.png){:width="640"}
 
-Indeed, we can see that we are not far from a circular trajectory but with interresting side-lobes pattern.
-The horn is far from being a point-source and its static angular propagation delay is angle-dependent because of the geometry of the Horn.
-These side-lobes have a noticeable impact on the Doppler effect which is not exactly sinusoidal.
+Indeed, we can see that we are not far from a circular trajectory but with an interresting side-lobes pattern.
+The horn is far from being a point-source and its static direct path propagation delay is angle-dependent because of the geometry of the Horn.
+These side-lobes have a noticeable impact on the Doppler effect which is not exactly sinusoidal and produces an more interresting frequency modulation pattern.
 
 Doing the same kind of analysis on a rotating Drum speaker we see that we are getting further away from the circular trajectory.
 
-![Delay]({{ site.url }}/images/rotary/AM_PhasePlot_80cm.png)
+![Delay]({{ site.url }}/images/rotary/AM_PhasePlot_80cm.png){:width="640"}
 
-Indeed, the geometry of the Drum is closer to an open cube rotating about its axial center.
+Indeed, the geometry of the Drum is closer to an open cube rotating about its axial center than to an ideal point-source.
+
 
 ## Acceleration and decceleration curves
 
