@@ -61,7 +61,7 @@ The listener is facing the open enclosure and quite close, its visibility cone i
 
 The listener is far from the open enclosure, its visibility cone is much smaller, many image-sources are "invisible"
 
-Furthermore, since the source is rotating within the enclosure, according to the listener placement it can become alternativley visible and invisble withing a revolution.
+Furthermore, since the source is rotating within the enclosure, according to the listener placement it can become alternativley visible and invisble within a revolution.
 
 However, once we have solved this first problem, to continue the analogy with 3D ray-tracing, we immediately notice how problematic this kind of hard shadowing model can be. Indeed, sources appear then disappear discontinuously which in the audio world means annoying clicks and pops.
 
