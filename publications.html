@@ -10,7 +10,7 @@ title: Remy Muller
 
           <script>
             var xmlhttp = new XMLHttpRequest();
-            var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,docType_s,producedDateY_i"; // TODO &sort=champ_s
+            var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,docType_s,producedDateY_i&sort=producedDateY_i%20desc"; // TODO &sort=champ_s
             xmlhttp.onreadystatechange = function() 
             {
                 if (this.readyState == 4 && this.status == 200) 
