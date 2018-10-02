@@ -6,10 +6,27 @@ title: Remy Muller
 <div id="home">
   <h1>Publications</h1>
   <div class="post">
+            <script>
+            function showDiv(div_id) 
+            {
+                var x = document.getElementById(div_id);
+                if(x)
+                {
+                    if (x.style.display == "none") 
+                    {
+                        x.style.display = "block";
+                    } 
+                    else 
+                    {
+                        x.style.display = "none";
+                    }                    
+                }
+            }
+            </script>
       <div id="Publications"></div>
           <script>
           var xmlhttp = new XMLHttpRequest();
-            var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,fileMain_s,docType_s,producedDateY_i&sort=producedDateY_i%20desc"; // TODO &sort=champ_s
+            var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,fileMain_s,docType_s,label_bibtex,producedDateY_i&sort=producedDateY_i%20desc"; // TODO &sort=champ_s
             xmlhttp.onreadystatechange = function() 
             {
                 if (this.readyState == 4 && this.status == 200) 
@@ -20,7 +37,7 @@ title: Remy Muller
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
 
-                        function format_json(text) 
+            function format_json(text) 
             {
                 // TODO: bibtex for each entry, grouping per year
                 var json_data = JSON.parse(text);
@@ -57,15 +74,20 @@ title: Remy Muller
                             {
                                 out += ' <a href="' + doc.fileMain_s + '">' + " [pdf]" + '</a>';
                             }
-                            out += '</div></br>';
+                            if(doc.label_bibtex)
+                            {
+                                var bibtexId = i; 
+                                out += ' <button onclick="showDiv(\'bibtex' + i + '\')">Bibtex</button>'
+                                out += "<div id=\"bibtex"+i+"\", style=\"display:none\"><pre><code>" + doc.label_bibtex + "</pre></code></div>"
+                                out += '</div></br>\n';                                
+                            }
                         }
                     }
-                    out += "</div>"
+                    out += "</div>\n"
                 }
                 out += ""
                 document.getElementById("Publications").innerHTML = out;
             }
-      
         </script>  
     </div>
 </div>
