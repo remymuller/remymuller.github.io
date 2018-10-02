@@ -20,10 +20,9 @@ title: Remy Muller
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
 
-            function format_json(text) 
+                        function format_json(text) 
             {
-                // TODO: bibtex for each entry, direct pdf download, grouping per year
-
+                // TODO: bibtex for each entry, grouping per year
                 var json_data = JSON.parse(text);
                 var docs = json_data.response.docs
                 var out = "";
@@ -44,13 +43,20 @@ title: Remy Muller
                         if(doc.docType_s == doc_types[j][0])
                         {
                             out += '<div>'; 
-                            out += '<b>' + doc.authFullName_s + "</b>, ";
-                            out += '<a href="' + doc.uri_s + '">' + doc.title_s + '</a>, ';
+                            for (let name of doc.authFullName_s)
+                            {
+                                out += name + ", "                                
+                            }
+                            out += '<a href="' + doc.uri_s + '"><b>' + doc.title_s + '</b></a>, ';
                             if(doc.conferenceTitle_s)
                             {
                                 out += '<i>' + doc.conferenceTitle_s + '</i>, '                         
                             }
                             out += doc.producedDateY_i;
+                            if(doc.fileMain_s)
+                            {
+                                out += ' <a href="' + doc.fileMain_s + '">' + " [pdf]" + '</a>';
+                            }
                             out += '</div></br>';
                         }
                     }
@@ -58,7 +64,8 @@ title: Remy Muller
                 }
                 out += ""
                 document.getElementById("Publications").innerHTML = out;
-            }      
+            }
+      
         </script>  
     </div>
 </div>
