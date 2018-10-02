@@ -7,57 +7,41 @@ title: Remy Muller
   <h1>Publications</h1>
   <div class="post">
       <div id="Publications"></div>
-
           <script>
-            var xmlhttp = new XMLHttpRequest();
-            var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,docType_s,producedDateY_i&sort=producedDateY_i%20desc"; // TODO &sort=champ_s
-            xmlhttp.onreadystatechange = function() 
-            {
-                if (this.readyState == 4 && this.status == 200) 
-                {
-                    format_json(xmlhttp.responseText);
-                }
-            };
-            xmlhttp.open("GET", url, true);
-            xmlhttp.send();
-
-            function format_json(text) 
-            {
-                // TODO: bibtex for each entry, direct pdf download, grouping per year
-
                 var json_data = JSON.parse(text);
                 var docs = json_data.response.docs
                 var out = "";
-                var i;
-                var doc_types = ["COMM", "POSTER"];
-                // out += "<ul>"
-                // for(i = 0; i < docs.length; i++) 
-                // {
-                //     out += '<li>' 
-                //     + '<b>' + docs[i].authFullName_s + "</b>, " 
-                //     + '<a href="' + docs[i].uri_s + '">' + docs[i].title_s + '</a>, '
-                //     + '<i>' + docs[i].conferenceTitle_s + '</i>, ' 
-                //     + docs[i].producedDateY_i
-                //     +'</li>'
-                // }
-                // out += "</ul>"
+                var i,j;
+                var doc_types = [
+                    ["COMM", "Conference Publications"], 
+                    ["POSTER", "Poster"], 
+                    ["REPORT", "Reports"]
+                ];
                 out += ""
-                for(i = 0; i < docs.length; i++) 
+                for(j=0; j<doc_types.length; ++j)
                 {
-                    var doc = docs[i];
-                    out += '<div>'; 
-                    out += '<b>' + doc.authFullName_s + "</b>, ";
-                    out += '<a href="' + doc.uri_s + '">' + doc.title_s + '</a>, ';
-                    if(doc.conferenceTitle_s)
+                    out += "<div>"
+                    out += "<h1>" + doc_types[j][1] + "</h1>";
+                    for(i = 0; i < docs.length; i++) 
                     {
-                        out += '<i>' + doc.conferenceTitle_s + '</i>, '                         
+                        var doc = docs[i];
+                        if(doc.docType_s == doc_types[j][0])
+                        {
+                            out += '<div>'; 
+                            out += '<b>' + doc.authFullName_s + "</b>, ";
+                            out += '<a href="' + doc.uri_s + '">' + doc.title_s + '</a>, ';
+                            if(doc.conferenceTitle_s)
+                            {
+                                out += '<i>' + doc.conferenceTitle_s + '</i>, '                         
+                            }
+                            out += doc.producedDateY_i;
+                            out += '</div></br>';
+                        }
                     }
-                    out += doc.producedDateY_i;
-                    out += '</div></br>';
+                    out += "</div>"
                 }
                 out += ""
                 document.getElementById("Publications").innerHTML = out;
-            }
-          </script>  
+        </script>  
     </div>
 </div>
