@@ -25,6 +25,7 @@ title: Remy Muller
             </script>
       <div id="Publications"></div>
           <script>
+            // TODO: show abstract on demand
           var xmlhttp = new XMLHttpRequest();
             var url = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:remy-muller&indent=true&fl=label_s,uri_s,title_s,authFullName_s,conferenceTitle_s,fileMain_s,docType_s,label_bibtex,producedDateY_i&sort=producedDateY_i%20desc"; // TODO &sort=champ_s
             xmlhttp.onreadystatechange = function() 
