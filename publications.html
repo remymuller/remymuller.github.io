@@ -39,7 +39,7 @@ title: Remy Muller
 
             function format_json(text) 
             {
-                // TODO: bibtex for each entry, grouping per year
+                // TODO: grouping per year
                 var json_data = JSON.parse(text);
                 var docs = json_data.response.docs
                 var out = "";
@@ -54,11 +54,13 @@ title: Remy Muller
                 {
                     out += "<div>"
                     out += "<h1>" + doc_types[j][1] + "</h1>";
+                    out += '<ul class="list-unstyled">'
                     for(i = 0; i < docs.length; i++) 
                     {
                         var doc = docs[i];
                         if(doc.docType_s == doc_types[j][0])
                         {
+                            out += '<li>'
                             out += '<div>'; 
                             for (let name of doc.authFullName_s)
                             {
@@ -72,17 +74,19 @@ title: Remy Muller
                             out += doc.producedDateY_i;
                             if(doc.fileMain_s)
                             {
-                                out += ' <a href="' + doc.fileMain_s + '">' + " [pdf]" + '</a>';
+                                out += ' <a href="' + doc.fileMain_s + '">' + "<span class=\"btn btn-outline-secondary btn-sm\">pdf</span>" + '</a>';
                             }
                             if(doc.label_bibtex)
                             {
                                 var bibtexId = i; 
-                                out += ' <button onclick="showDiv(\'bibtex' + i + '\')">Bibtex</button>'
+                                out += ' <button class="btn btn-outline-secondary btn-sm" onclick="showDiv(\'bibtex' + i + '\')">Bibtex</button>'
                                 out += "<div id=\"bibtex"+i+"\", style=\"display:none\"><pre><code>" + doc.label_bibtex + "</pre></code></div>"
                                 out += '</div></br>\n';                                
                             }
+                            out += "</li>"
                         }
                     }
+                    out += "</ul>"
                     out += "</div>\n"
                 }
                 out += ""
