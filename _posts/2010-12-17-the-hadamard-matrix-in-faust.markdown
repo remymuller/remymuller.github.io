@@ -37,7 +37,7 @@ Now how to implement this with the [Faust](http://faust.grame.fr/) functional da
 the butterfly operation for N=2 is easy:
 
     
-    butterfly2 = _,_
+    butterfly2 = _,_ <: (+,-)
 
 
 ![]({{ site.url }}/images/hadamard/butterfly2.png)
@@ -46,7 +46,7 @@ So let's try to generalize:
 
     
     interleave4 = (_,!,_,!),(!,_,!,_) ; // 0 2 1 3
-    butterfly4 = _,_,_,_
+    butterfly4 = _,_,_,_ <: (interleave4,interleave4) : (+,+,-,-)
 
 
 This one is more complicated, faust doesn't let you explicitely make arbitrary connections between modules. We have to use the the fan out operator **<:** and cut unneccessary wires using operator **!**.  We also introduced the **interleave4** helper.
