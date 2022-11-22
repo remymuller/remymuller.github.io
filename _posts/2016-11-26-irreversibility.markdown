@@ -4,7 +4,6 @@ comments: false
 layout: post
 slug: irreversibility
 title: Irreversibility, Conservation or Dissipation?
-usemathjax: true
 categories:
 - science
 ---
