@@ -1,3 +1,4 @@
 auto: true
 name: Remy Muller
 highlighter: rouge
+markdown: kramdown
